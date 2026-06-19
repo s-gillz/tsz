@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ============================================ -->
+    <!-- SEO META TAGS - JOBS PAGE                    -->
+    <!-- ============================================ -->
+    <title>Careers | The Study Zone - Join Our Tutoring Team in Brampton & GTA</title>
+    <meta name="description" content="Join The Study Zone team. We're hiring passionate tutors in Brampton, Caledon & GTA. Flexible schedules, competitive pay, professional development. Apply now.">
+    <meta name="keywords" content="tutoring jobs Brampton, tutor jobs Caledon, teaching jobs GTA, math tutor hiring, online tutor jobs Canada, education careers Ontario">
+    <link rel="canonical" href="https://www.thestudyzone.ca/jobs">
+    
+    <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.thestudyzone.ca/jobs">
+    <meta property="og:title" content="Careers | The Study Zone - Join Our Team">
+    <meta property="og:description" content="Passionate about education? Join Brampton's leading tutoring team. Flexible schedules, competitive pay, and growth opportunities.">
+    <meta property="og:image" content="https://www.thestudyzone.ca/assets/og-jobs.jpg">
+
+    <!-- PRECONNECT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+    <!-- SCHEMA: JOB POSTING PAGE -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "JobPosting",
+      "title": "Tutor - The Study Zone",
+      "description": "Provide one-on-one and group tutoring sessions to students in various subjects including math, science, English, and more.",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "The Study Zone",
+        "sameAs": "https://www.thestudyzone.ca"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Brampton",
+          "addressRegion": "ON",
+          "addressCountry": "CA"
+        }
+      },
+      "employmentType": ["PART_TIME", "CONTRACTOR"],
+      "applicationContact": {
+        "@type": "ContactPoint",
+        "email": "info@thestudyzone.ca",
+        "contactType": "applications"
+      }
+    }
+    </script>
+
+    <style>
+        /* ============================================ */
+        /* CSS VARIABLES & RESET                        */
+        /* ============================================ */
+        :root {
+            --primary: #0f1f3d;
+            --secondary: #c5a059;
+            --accent: #e8f0f2;
+            --text: #1a202c;
+            --text-light: #4a5568;
+            --white: #ffffff;
+            --footer-text: #a0aec0;
+            --footer-heading: #f7fafc;
+            --footer-link: #cbd5e0;
+            --footer-link-hover: #c5a059;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            background: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, h4 { font-family: 'Playfair Display', serif; font-weight: 700; line-height: 1.2; }
+        a { text-decoration: none; color: inherit; transition: var(--transition); }
+        img { max-width: 100%; height: auto; display: block; }
+        .container { width: 90%; max-width: 1100px; margin: 0 auto; }
+        
+        .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+        .btn-primary {
+            background: var(--secondary);
+            color: var(--primary);
+            border-color: var(--secondary);
+        }
+        .btn-primary:hover {
+            background: transparent;
+            color: var(--secondary);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(197, 160, 89, 0.2);
+        }
+        .btn-outline {
+            background: transparent;
+            color: var(--white);
+            border-color: var(--white);
+        }
+        .btn-outline:hover {
+            background: var(--white);
+            color: var(--primary);
+        }
+        .gold-line {
+            width: 60px; height: 3px; background: var(--secondary); margin: 20px 0;
+        }
+        .gold-line.center { margin: 20px auto; }
+
+        /* ============================================ */
+        /* HEADER                                       */
+        /* ============================================ */
+        header {
+            position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: var(--transition);
+        }
+        header.scrolled { box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+        nav { display: flex; justify-content: space-between; align-items: center; height: 80px; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700; color: var(--primary); }
+        .logo span { color: var(--secondary); }
+        .nav-links { display: flex; gap: 35px; list-style: none; align-items: center; }
+        .nav-links a {
+            font-weight: 500; font-size: 0.9rem; color: var(--text);
+            position: relative; padding: 5px 0;
+        }
+        .nav-links a::after {
+            content: ''; position: absolute; bottom: 0; left: 0; width: 0; height: 2px;
+            background: var(--secondary); transition: var(--transition);
+        }
+        .nav-links a:hover::after { width: 100%; }
+        .dropdown { position: relative; }
+        .dropdown-menu {
+            position: absolute; top: 100%; left: 0;
+            background: var(--white); min-width: 200px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 8px; padding: 10px 0;
+            opacity: 0; visibility: hidden; transform: translateY(10px);
+            transition: var(--transition); list-style: none;
+        }
+        .dropdown:hover .dropdown-menu {
+            opacity: 1; visibility: visible; transform: translateY(0);
+        }
+        .dropdown-menu li { padding: 0; }
+        .dropdown-menu a {
+            display: block; padding: 10px 20px; font-size: 0.9rem;
+        }
+        .dropdown-menu a:hover {
+            background: var(--accent); color: var(--primary); padding-left: 25px;
+        }
+        .dropdown-menu a::after { display: none; }
+        .mobile-menu-btn { display: none; background: none; border: none; font-size: 1.5rem; cursor: pointer; }
+
+        /* ============================================ */
+        /* PAGE HERO                                    */
+        /* ============================================ */
+        .page-hero {
+            min-height: 45vh;
+            display: flex; align-items: center;
+            background: linear-gradient(135deg, var(--primary) 0%, #1a365d 100%);
+            color: var(--white);
+            padding-top: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+        .page-hero h1 { font-size: 3rem; margin-bottom: 15px; }
+        .page-hero p { font-size: 1.15rem; color: rgba(255,255,255,0.85); max-width: 600px; margin-bottom: 25px; }
+        .hero-badges {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .hero-badge {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* ============================================ */
+        /* WHY JOIN US SECTION                          */
+        /* ============================================ */
+        .why-join-section {
+            padding: 80px 0;
+            background: var(--white);
+        }
+        .why-join-section h2 {
+            text-align: center;
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 50px;
+        }
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .benefit-card {
+            background: var(--accent);
+            padding: 35px 30px;
+            border-radius: 12px;
+            text-align: center;
+            transition: var(--transition);
+            border-bottom: 4px solid transparent;
+        }
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            border-bottom: 4px solid var(--secondary);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+        .benefit-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        .benefit-card h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        .benefit-card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* ============================================ */
+        /* JOB DETAILS SECTION                          */
+        /* ============================================ */
+        .job-section {
+            padding: 80px 0;
+            background: var(--accent);
+        }
+        .job-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--white);
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .job-header {
+            background: var(--primary);
+            color: var(--white);
+            padding: 40px;
+            text-align: center;
+        }
+        .job-header h2 {
+            color: var(--white);
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        .job-header p {
+            color: rgba(255,255,255,0.85);
+            font-size: 1.05rem;
+        }
+        .job-body {
+            padding: 40px;
+        }
+        .job-section-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 30px 0 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .job-section-title:first-child {
+            margin-top: 0;
+        }
+        .job-list {
+            list-style: none;
+            margin-bottom: 25px;
+        }
+        .job-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid var(--accent);
+            color: var(--text-light);
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        .job-list li::before {
+            content: '▸';
+            color: var(--secondary);
+            font-weight: 700;
+            min-width: 15px;
+        }
+        .job-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* ============================================ */
+        /* APPLICATION SECTION                          */
+        /* ============================================ */
+        .apply-section {
+            padding: 80px 0;
+            background: var(--primary);
+            color: var(--white);
+            text-align: center;
+        }
+        .apply-section h2 {
+            color: var(--white);
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+        .apply-section p {
+            color: rgba(255,255,255,0.85);
+            max-width: 600px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+        }
+        .email-highlight {
+            display: inline-block;
+            background: rgba(255,255,255,0.1);
+            border: 2px solid var(--secondary);
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--secondary);
+            margin: 20px 0;
+        }
+        .apply-note {
+            background: rgba(255,255,255,0.1);
+            border-left: 4px solid var(--warning);
+            padding: 20px 25px;
+            border-radius: 0 8px 8px 0;
+            max-width: 700px;
+            margin: 30px auto 0;
+            text-align: left;
+        }
+        .apply-note h4 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            color: var(--warning);
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+        .apply-note p {
+            color: rgba(255,255,255,0.85);
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        /* ============================================ */
+        /* EQUAL OPPORTUNITY SECTION                    */
+        /* ============================================ */
+        .equal-opportunity {
+            padding: 60px 0;
+            background: var(--white);
+            text-align: center;
+        }
+        .equal-opportunity h2 {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        .equal-opportunity p {
+            color: var(--text-light);
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+        .diversity-badges {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .diversity-badge {
+            background: var(--accent);
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--primary);
+        }
+
+        /* ============================================ */
+        /* CTA SECTION                                  */
+        /* ============================================ */
+        .cta-section {
+            padding: 80px 0;
+            text-align: center;
+            background: var(--accent);
+        }
+        .cta-section h2 { font-size: 2.2rem; color: var(--primary); margin-bottom: 15px; }
+        .cta-section p { color: var(--text-light); margin-bottom: 30px; font-size: 1.1rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+
+        /* ============================================ */
+        /* FOOTER                                       */
+        /* ============================================ */
+        footer {
+            background: #080f1e;
+            color: var(--footer-text);
+            padding: 60px 0 20px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .footer-brand .logo {
+            color: var(--footer-heading);
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        .footer-brand p {
+            max-width: 300px;
+            line-height: 1.8;
+            color: var(--footer-text);
+        }
+        .footer-col h4 {
+            color: var(--footer-heading);
+            margin-bottom: 20px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 12px; }
+        .footer-col a {
+            color: var(--footer-link);
+            font-size: 0.95rem;
+            display: inline-block;
+        }
+        .footer-col a:hover {
+            color: var(--footer-link-hover);
+            padding-left: 5px;
+        }
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+            color: var(--footer-text);
+        }
+
+        /* ============================================ */
+        /* ANIMATIONS                                   */
+        /* ============================================ */
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+
+        /* ============================================ */
+        /* RESPONSIVE                                   */
+        /* ============================================ */
+        @media (max-width: 992px) {
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+            .page-hero h1 { font-size: 2.5rem; }
+        }
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .mobile-menu-btn { display: block; color: var(--primary); }
+            .page-hero h1 { font-size: 2rem; }
+            .job-header { padding: 30px 20px; }
+            .job-body { padding: 25px 20px; }
+            .email-highlight { font-size: 1.1rem; padding: 12px 20px; }
+            .apply-section h2 { font-size: 1.8rem; }
+            .equal-opportunity h2 { font-size: 1.8rem; }
+            .cta-section h2 { font-size: 1.8rem; }
+            .footer-grid { grid-template-columns: 1fr; }
+        }
+    
+        /* ============================================ */
+        /* ACCESSIBILITY & CONVERSION ENHANCEMENTS      */
+        /* ============================================ */
+
+        /* Skip Link */
+        .skip-link {
+            position: absolute; top: -40px; left: 0;
+            background: var(--secondary); color: var(--primary);
+            padding: 8px 16px; z-index: 10000;
+            font-weight: 600; border-radius: 0 0 4px 0;
+            transition: top 0.3s;
+        }
+        .skip-link:focus { top: 0; }
+
+        /* Focus Indicators */
+        :focus-visible {
+            outline: 3px solid var(--secondary);
+            outline-offset: 3px;
+        }
+        a:focus-visible, button:focus-visible {
+            outline: 3px solid var(--secondary);
+            outline-offset: 3px;
+            border-radius: 2px;
+        }
+
+        /* Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+            .reveal { opacity: 1; transform: none; }
+        }
+
+        /* Screen Reader Only */
+        .sr-only {
+            position: absolute; width: 1px; height: 1px;
+            padding: 0; margin: -1px; overflow: hidden;
+            clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+        }
+
+        /* ============================================ */
+        /* CONVERSION OPTIMIZATIONS                     */
+        /* ============================================ */
+
+        /* Sticky CTA Bar */
+        .sticky-cta {
+            position: fixed; bottom: 0; left: 0; width: 100%;
+            background: var(--primary); color: var(--white);
+            padding: 12px 20px; z-index: 999;
+            display: flex; justify-content: center; align-items: center;
+            gap: 20px; flex-wrap: wrap;
+            box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+            transform: translateY(100%);
+            transition: transform 0.4s ease;
+        }
+        .sticky-cta.visible { transform: translateY(0); }
+        .sticky-cta p { margin: 0; font-size: 0.95rem; }
+        .sticky-cta .btn { padding: 10px 24px; font-size: 0.85rem; }
+
+        /* Back to Top */
+                /* Back to Top - REPOSITIONED to avoid overlap */
+        .back-to-top {
+            position: fixed; bottom: 100px; right: 30px;
+            width: 50px; height: 50px; border-radius: 50%;
+            background: var(--secondary); color: var(--primary);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.3rem; cursor: pointer; z-index: 998;
+            opacity: 0; visibility: hidden; transition: all 0.3s ease;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.2); border: none;
+        }
+        .back-to-top.visible { opacity: 1; visibility: visible; }
+        .back-to-top:hover { transform: translateY(-3px); }
+
+        /* Social Proof Popup */
+        .social-proof-popup {
+            position: fixed; bottom: 100px; left: 20px;
+            background: var(--white); padding: 15px 20px;
+            border-radius: 10px; box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+            z-index: 997; max-width: 320px;
+            transform: translateX(-400px); transition: transform 0.5s ease;
+            border-left: 4px solid var(--secondary);
+        }
+        .social-proof-popup.show { transform: translateX(0); }
+        .social-proof-popup p { margin: 0; font-size: 0.85rem; color: var(--text); }
+        .social-proof-popup .time { color: var(--text-light); font-size: 0.75rem; margin-top: 4px; }
+        .social-proof-popup .close { position: absolute; top: 8px; right: 10px; cursor: pointer; color: var(--text-light); font-size: 1rem; }
+
+        /* Exit Intent Modal */
+        .exit-modal-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7); z-index: 3000;
+            display: none; align-items: center; justify-content: center;
+            opacity: 0; transition: opacity 0.3s ease;
+        }
+        .exit-modal-overlay.active { display: flex; opacity: 1; }
+        .exit-modal {
+            background: var(--white); padding: 50px; border-radius: 16px;
+            max-width: 500px; width: 90%; text-align: center;
+            position: relative; transform: scale(0.9); transition: transform 0.3s ease;
+        }
+        .exit-modal-overlay.active .exit-modal { transform: scale(1); }
+        .exit-modal h2 { color: var(--primary); font-size: 1.8rem; margin-bottom: 15px; }
+        .exit-modal p { color: var(--text-light); margin-bottom: 25px; }
+        .exit-modal .discount { 
+            background: linear-gradient(135deg, var(--secondary), #d4af37);
+            color: var(--primary); padding: 15px 25px; border-radius: 8px;
+            font-size: 1.3rem; font-weight: 700; display: inline-block; margin-bottom: 20px;
+        }
+        .exit-modal-close { position: absolute; top: 15px; right: 20px; font-size: 1.5rem; cursor: pointer; color: var(--text-light); background: none; border: none; }
+
+        /* Trust Badges Bar */
+        .trust-bar {
+            background: var(--accent); padding: 20px 0;
+            border-top: 1px solid rgba(0,0,0,0.05);
+        }
+        .trust-bar-grid {
+            display: flex; justify-content: center; align-items: center;
+            gap: 40px; flex-wrap: wrap;
+        }
+        .trust-item { display: flex; align-items: center; gap: 8px; color: var(--text-light); font-size: 0.85rem; }
+        .trust-item svg { width: 20px; height: 20px; color: var(--success); }
+
+        /* Urgency Timer */
+        .urgency-banner {
+            background: linear-gradient(90deg, #dc2626, #ef4444);
+            color: var(--white); text-align: center; padding: 12px;
+            font-weight: 600; font-size: 0.95rem;
+        }
+        .urgency-banner .timer { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 1.1rem; }
+
+        /* Chat Widget */
+                /* WhatsApp Chat - REPOSITIONED to avoid overlap */
+        .chat-widget {
+            position: fixed; bottom: 30px; right: 30px;
+            z-index: 999;
+        }
+        .chat-btn {
+            width: 60px; height: 60px; border-radius: 50%;
+            background: #25d366; color: white;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.5rem; cursor: pointer; box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            border: none; transition: all 0.3s ease;
+        }
+        .chat-btn:hover { transform: scale(1.1); }
+        .chat-badge {
+            position: absolute; top: -5px; right: -5px;
+            background: #dc2626; color: white; font-size: 0.7rem;
+            padding: 2px 6px; border-radius: 10px; font-weight: 700;
+        }
+
+        /* FAQ Accordion (for faq.html) */
+        .faq-accordion { max-width: 800px; margin: 0 auto; }
+        .faq-item { background: var(--white); border-radius: 10px; margin-bottom: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .faq-question { padding: 20px 25px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-weight: 600; color: var(--primary); }
+        .faq-question:hover { background: var(--accent); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 25px; }
+        .faq-item.open .faq-answer { max-height: 500px; padding: 0 25px 20px; }
+        .faq-icon { transition: transform 0.3s; }
+        .faq-item.open .faq-icon { transform: rotate(180deg); }
+
+        /* Loading Skeleton */
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+        .skeleton {
+            background: linear-gradient(90deg, #e8f0f2 25%, #f0f4f8 50%, #e8f0f2 75%);
+            background-size: 200% 100%; animation: shimmer 1.5s infinite;
+            border-radius: 4px;
+        }
+
+        /* Micro-interactions */
+        .btn-primary:active { transform: scale(0.97); }
+        .service-card, .benefit-card, .value-card, .testi-card, .article-card {
+            will-change: transform;
+        }
+
+        /* Announcement for screen readers */
+        .sr-announce { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+</style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- ============================================ -->
+    <!-- HEADER                                       -->
+    <!-- ============================================ -->
+    <header id="header" role="banner">
+        <div class="container">
+            <nav role="navigation" aria-label="Main navigation">
+                <a href="/" class="logo">The <span>Study</span> Zone</a>
+                <ul class="nav-links">
+                    <li><a href="/courses">Programs</a></li>
+                    <li><a href="/about-us">About</a></li>
+                    <li><a href="/#locations">Service Areas</a></li>
+                    <li><a href="/#testimonials">Success Stories</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#" aria-haspopup="true" aria-expanded="false">More ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/articles">Articles</a></li>
+                            <li><a href="/faq">FAQ</a></li>
+                            <li><a href="/feedback">Feedback</a></li>
+                            <li><a href="/jobs">Careers</a></li>
+                            <li><a href="/become-affiliate">Become Affiliate</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="/registration" class="btn btn-primary" style="padding: 10px 20px; font-size: 0.85rem;">Register</a></li>
+                </ul>
+                <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle navigation menu">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================ -->
+    <!-- PAGE HERO                                    -->
+    <!-- ============================================ -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Join Our Team</h1>
+            <p>Are you passionate about education and helping students reach their full potential? We're always looking for dedicated educators who believe in the power of personalized learning.</p>
+            <div class="hero-badges">
+                <span class="hero-badge">Flexible Schedules</span>
+                <span class="hero-badge">Competitive Pay</span>
+                <span class="hero-badge">Professional Growth</span>
+                <span class="hero-badge">Make an Impact</span>
+            </div>
+        </div>
+    </section>
+    <main id="main-content">
+
+    <!-- ============================================ -->
+    <!-- WHY JOIN US                                  -->
+    <!-- ============================================ -->
+    <section class="why-join-section">
+        <div class="container">
+            <h2 class="reveal">Why Tutors Choose TSZ</h2>
+            <div class="gold-line center"></div>
+            <div class="benefits-grid">
+                <div class="benefit-card reveal">
+                    <div class="benefit-icon">⏰</div>
+                    <h3>Flexible Scheduling</h3>
+                    <p>Set your own hours. Work around your studies or other commitments. We accommodate your availability.</p>
+                </div>
+                <div class="benefit-card reveal">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Competitive Compensation</h3>
+                    <p>We value expertise. Our tutors earn above-market rates with performance bonuses and referral incentives.</p>
+                </div>
+                <div class="benefit-card reveal">
+                    <div class="benefit-icon">📚</div>
+                    <h3>Professional Development</h3>
+                    <p>Ongoing training, workshops, and mentorship from senior educators. Grow your skills while you teach.</p>
+                </div>
+                <div class="benefit-card reveal">
+                    <div class="benefit-icon">🏠</div>
+                    <h3>In-Person & Online</h3>
+                    <p>Choose home tutoring in Brampton, Caledon, Bolton or virtual sessions from anywhere in Canada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- JOB DETAILS                                  -->
+    <!-- ============================================ -->
+    <section class="job-section">
+        <div class="container">
+            <div class="job-wrapper reveal">
+                <div class="job-header">
+                    <h2>Tutor Position</h2>
+                    <p>Part-time / Contract — Brampton, Caledon, Bolton & Online</p>
+                </div>
+                <div class="job-body">
+                    
+                    <h3 class="job-section-title">📋 Responsibilities</h3>
+                    <ul class="job-list">
+                        <li>Provide one-on-one and group tutoring sessions to students in various subjects, including math, science, English, and more</li>
+                        <li>Assess students' strengths and weaknesses to develop tailored learning plans</li>
+                        <li>Create engaging and interactive lessons to promote student understanding and engagement</li>
+                        <li>Monitor student progress and provide regular feedback to students and parents/guardians</li>
+                        <li>Collaborate with the tutoring center team to develop and implement effective teaching strategies</li>
+                        <li>Maintain a positive and supportive learning environment for students</li>
+                    </ul>
+
+                    <h3 class="job-section-title">🎓 Qualifications</h3>
+                    <ul class="job-list">
+                        <li>Bachelor's degree in Education, or related field (preferred)</li>
+                        <li>Previous tutoring or teaching experience is an asset</li>
+                        <li>Strong knowledge and understanding of the subject matter</li>
+                        <li>Excellent communication and interpersonal skills</li>
+                        <li>Patient, adaptable, and able to work effectively with students of diverse backgrounds and learning styles</li>
+                        <li>Legally authorized to work in Canada or USA</li>
+                    </ul>
+
+                    <h3 class="job-section-title">✨ What We Offer</h3>
+                    <ul class="job-list">
+                        <li>Ongoing professional development opportunities to enhance your teaching skills</li>
+                        <li>Flexible schedules that work around your commitments</li>
+                        <li>Competitive compensation with performance incentives</li>
+                        <li>A supportive team environment with mentorship from experienced educators</li>
+                        <li>Opportunity to make a real difference in students' academic journeys</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- APPLICATION SECTION                          -->
+    <!-- ============================================ -->
+    <section class="apply-section">
+        <div class="container">
+            <h2 class="reveal">Ready to Apply?</h2>
+            <p class="reveal">We'd love to hear from you. Please send your resume and a cover letter outlining your experience and passion for tutoring.</p>
+            
+            <div class="email-highlight reveal">
+                📧 info@thestudyzone.ca
+            </div>
+            
+            <p class="reveal" style="font-size: 0.95rem; margin-top: 15px;">Please include "Tutor Application" in your subject line.</p>
+
+            <div class="apply-note reveal">
+                <h4>⚠️ Important Note</h4>
+                <p>We have a strict policy in place to select the best tutors. <strong>Please DO NOT call.</strong> Submit your application via email only, and we will follow up if you meet our selection criteria. We review every application carefully and appreciate your patience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- EQUAL OPPORTUNITY                            -->
+    <!-- ============================================ -->
+    <section class="equal-opportunity">
+        <div class="container">
+            <h2 class="reveal">Equal Opportunity Employer</h2>
+            <div class="gold-line center"></div>
+            <p class="reveal">The Study Zone celebrates diversity and is committed to creating an inclusive environment for all employees. We welcome applications from qualified candidates of every background. Our hiring decisions are based on qualifications, merit, and business need.</p>
+            <div class="diversity-badges reveal">
+                <span class="diversity-badge">Inclusive Workplace</span>
+                <span class="diversity-badge">Diverse Team</span>
+                <span class="diversity-badge">Merit-Based Hiring</span>
+                <span class="diversity-badge">Growth Opportunities</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CTA SECTION                                  -->
+    <!-- ============================================ -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="reveal">Not Ready to Apply Yet?</h2>
+            <p class="reveal">Learn more about our teaching philosophy and what makes The Study Zone different. Or explore our Super Host program if you have space to tutor from home.</p>
+            <a href="/about-us" class="btn btn-primary reveal" style="margin-right: 15px;">About TSZ</a>
+            <a href="/become-affiliate" class="btn btn-outline reveal" style="color: var(--primary); border-color: var(--primary);">Super Host Program</a>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER                                       -->
+    <!-- ============================================ -->
+    </main>
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo">The <span>Study</span> Zone</a>
+                    <p>Premium academic coaching and tutoring services. Building the next generation of thinkers, leaders, and innovators.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="/courses">K-12 Tutoring</a></li>
+                        <li><a href="/courses">IB & AP Prep</a></li>
+                        <li><a href="/courses">STEM & Coding</a></li>
+                        <li><a href="/summer-program">Summer Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/about-us">About Us</a></li>
+                        <li><a href="/home-tutoring">Home Tutoring</a></li>
+                        <li><a href="/articles">Articles</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="/registration">Register</a></li>
+                        <li><a href="/instant-tutoring">Instant Tutoring</a></li>
+                        <li><a href="/jobs">Careers</a></li>
+                        <li><a href="tel:+16478494344">(647) 849-4344</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> The Study Zone (TSZ). All rights reserved. Serving Brampton, Caledon, Bolton & GTA.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================ -->
+    <!-- JAVASCRIPT                                   -->
+    <!-- ============================================ -->
+    <script>
+        // Sticky Header
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) header.classList.add('scrolled');
+            else header.classList.remove('scrolled');
+        });
+
+        // Scroll Reveal
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealOnScroll = () => {
+            const windowHeight = window.innerHeight;
+            revealElements.forEach((reveal) => {
+                if (reveal.getBoundingClientRect().top < windowHeight - 100) {
+                    reveal.classList.add('active');
+                }
+            });
+        };
+        window.addEventListener('scroll', revealOnScroll);
+        revealOnScroll();
+
+        // Mobile Menu
+        function toggleMenu() {
+            const nav = document.querySelector('.nav-links');
+            if (nav.style.display === 'flex') {
+                nav.style.display = 'none';
+            } else {
+                nav.style.display = 'flex';
+                nav.style.flexDirection = 'column';
+                nav.style.position = 'absolute';
+                nav.style.top = '80px';
+                nav.style.left = '0';
+                nav.style.width = '100%';
+                nav.style.background = 'white';
+                nav.style.padding = '20px';
+                nav.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
+            }
+        }
+    </script>
+
+    <!-- Sticky CTA -->
+    <div class="sticky-cta">
+        <p>🎓 Free Assessment + 20% Off First Month</p>
+        <a href="/registration" class="btn btn-primary">Register Now</a>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <!-- WhatsApp Chat -->
+    <div class="chat-widget">
+        <button class="chat-btn" aria-label="Chat on WhatsApp">
+            💬
+            <span class="chat-badge">1</span>
+        </button>
+    </div>
+
+    <!-- Social Proof Popup -->
+    <div class="social-proof-popup">
+        <span class="close" aria-label="Close notification">×</span>
+        <p><strong>Someone from Brampton just booked a free assessment</strong></p>
+        <p class="time">2 min ago</p>
+    </div>
+
+    <!-- Exit Intent Modal -->
+    <div class="exit-modal-overlay">
+        <div class="exit-modal">
+            <button class="exit-modal-close" aria-label="Close offer">&times;</button>
+            <h2>Wait! Don't Leave Empty-Handed</h2>
+            <div class="discount">🎁 20% OFF Your First Month</div>
+            <p>Join 500+ families who've seen their children's grades soar. Book your free assessment today and lock in this exclusive discount.</p>
+            <a href="/registration" class="btn btn-primary">Claim My 20% Off</a>
+            <p style="margin-top: 15px; font-size: 0.85rem; color: var(--text-light);">No commitment. Cancel anytime.</p>
+        </div>
+    </div>
+
+
+    <!-- ============================================ -->
+    <!-- CONVERSION & ACCESSIBILITY SCRIPTS           -->
+    <!-- ============================================ -->
+    <script>
+        // --------------------------------------------
+        // ACCESSIBILITY: Skip Link + Focus Management
+        // --------------------------------------------
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Tab') document.body.classList.add('keyboard-nav');
+        });
+        document.addEventListener('mousedown', () => {
+            document.body.classList.remove('keyboard-nav');
+        });
+
+        // --------------------------------------------
+        // SCREEN READER ANNOUNCEMENTS
+        // --------------------------------------------
+        function announce(message) {
+            const el = document.createElement('div');
+            el.setAttribute('role', 'status');
+            el.setAttribute('aria-live', 'polite');
+            el.className = 'sr-announce';
+            el.textContent = message;
+            document.body.appendChild(el);
+            setTimeout(() => el.remove(), 1000);
+        }
+
+        // --------------------------------------------
+        // STICKY CTA BAR (appears after scrolling)
+        // --------------------------------------------
+        const stickyCta = document.querySelector('.sticky-cta');
+        if (stickyCta) {
+            let ctaShown = false;
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 600 && !ctaShown) {
+                    stickyCta.classList.add('visible');
+                    ctaShown = true;
+                }
+            });
+        }
+
+        // --------------------------------------------
+        // BACK TO TOP BUTTON
+        // --------------------------------------------
+        const backToTop = document.querySelector('.back-to-top');
+        if (backToTop) {
+            window.addEventListener('scroll', () => {
+                backToTop.classList.toggle('visible', window.scrollY > 500);
+            });
+            backToTop.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // --------------------------------------------
+        // EXIT INTENT MODAL (capture leaving visitors)
+        // --------------------------------------------
+        const exitModal = document.querySelector('.exit-modal-overlay');
+        let exitShown = false;
+        if (exitModal && !localStorage.getItem('exitModalShown')) {
+            document.addEventListener('mouseout', (e) => {
+                if (e.clientY < 10 && !exitShown) {
+                    exitModal.classList.add('active');
+                    exitShown = true;
+                    localStorage.setItem('exitModalShown', 'true');
+                    announce('Special offer: Get 20% off your first month of tutoring');
+                }
+            });
+            exitModal.querySelector('.exit-modal-close').addEventListener('click', () => {
+                exitModal.classList.remove('active');
+            });
+            exitModal.addEventListener('click', (e) => {
+                if (e.target === exitModal) exitModal.classList.remove('active');
+            });
+        }
+
+        // --------------------------------------------
+        // URGENCY COUNTDOWN TIMER
+        // --------------------------------------------
+        function startUrgencyTimer() {
+            const timerEl = document.querySelector('.urgency-timer');
+            if (!timerEl) return;
+
+            let hours = 23, minutes = 59, seconds = 59;
+            setInterval(() => {
+                seconds--;
+                if (seconds < 0) { seconds = 59; minutes--; }
+                if (minutes < 0) { minutes = 59; hours--; }
+                if (hours < 0) { hours = 23; minutes = 59; seconds = 59; }
+                timerEl.textContent = `${String(hours).padStart(2,'0')}:${String(minutes).padStart(2,'0')}:${String(seconds).padStart(2,'0')}`;
+            }, 1000);
+        }
+        startUrgencyTimer();
+
+        // --------------------------------------------
+        // FAQ ACCORDION
+        // --------------------------------------------
+        document.querySelectorAll('.faq-question').forEach(q => {
+            q.addEventListener('click', () => {
+                const item = q.parentElement;
+                const isOpen = item.classList.contains('open');
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+                if (!isOpen) item.classList.add('open');
+            });
+        });
+
+        // --------------------------------------------
+        // FORM TRACKING & LEAD SCORING
+        // --------------------------------------------
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', (e) => {
+                // Track form submission
+                const formData = new FormData(form);
+                const data = Object.fromEntries(formData);
+
+                // Store in localStorage for retargeting
+                localStorage.setItem('tsz_lead_data', JSON.stringify({
+                    ...data,
+                    submitted: new Date().toISOString(),
+                    page: window.location.pathname
+                }));
+
+                // Facebook Pixel event (placeholder)
+                if (typeof fbq !== 'undefined') fbq('track', 'Lead');
+
+                // Google Analytics event (placeholder)
+                if (typeof gtag !== 'undefined') gtag('event', 'form_submit', {
+                    event_category: 'engagement',
+                    event_label: window.location.pathname
+                });
+
+                announce('Form submitted successfully. We will contact you within 24 hours.');
+            });
+        });
+
+        // --------------------------------------------
+        // SCROLL DEPTH TRACKING
+        // --------------------------------------------
+        const scrollDepths = [25, 50, 75, 90];
+        const trackedDepths = new Set();
+        window.addEventListener('scroll', () => {
+            const depth = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+            scrollDepths.forEach(d => {
+                if (depth >= d && !trackedDepths.has(d)) {
+                    trackedDepths.add(d);
+                    if (typeof gtag !== 'undefined') gtag('event', 'scroll_depth', {
+                        event_category: 'engagement',
+                        event_label: d + '%'
+                    });
+                }
+            });
+        });
+
+        // --------------------------------------------
+        // CLICK TRACKING ON CTAs
+        // --------------------------------------------
+        document.querySelectorAll('a[href*="registration"], a[href*="instant-tutoring"]').forEach(link => {
+            link.addEventListener('click', () => {
+                if (typeof gtag !== 'undefined') gtag('event', 'cta_click', {
+                    event_category: 'conversion',
+                    event_label: link.getAttribute('href')
+                });
+            });
+        });
+
+        // --------------------------------------------
+        // CHAT WIDGET TOGGLE
+        // --------------------------------------------
+        const chatBtn = document.querySelector('.chat-btn');
+        if (chatBtn) {
+            chatBtn.addEventListener('click', () => {
+                window.open('https://wa.me/16478494344?text=Hi%20Study%20Zone%2C%20I%20have%20a%20question%20about%20tutoring', '_blank');
+            });
+        }
+
+        // --------------------------------------------
+        // LAZY LOAD IMAGES
+        // --------------------------------------------
+        if ('IntersectionObserver' in window) {
+            const imgObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src || img.src;
+                        img.classList.remove('lazy');
+                        imgObserver.unobserve(img);
+                    }
+                });
+            });
+            document.querySelectorAll('img[data-src]').forEach(img => imgObserver.observe(img));
+        }
+    </script>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+    <!-- Facebook Pixel (replace PIXEL_ID) -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'PIXEL_ID');
+        fbq('track', 'PageView');
+    </script>
+
+</body>
+</html>
