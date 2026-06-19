@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://www.thestudyzone.ca/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1

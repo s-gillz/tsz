@@ -1,0 +1,31 @@
+# Cloudflare Pages Redirects
+# The Study Zone - Auto-generated
+
+# Legacy URL redirects
+/index.html / 301
+/about-us.html /about-us 301
+/about_us.html /about-us 301
+/articles.html /articles 301
+/careers.html /jobs 301
+/courses.html /courses 301
+/instant-tutoring.html /instant-tutoring 301
+/instant_tutoring.html /instant-tutoring 301
+/jobs.html /jobs 301
+/registration.html /registration 301
+/faq.html /faq 301
+/feedback.html /feedback 301
+/home-tutoring.html /home-tutoring 301
+/summer-program.html /summer-program 301
+/become-affiliate.html /become-affiliate 301
+
+# Old page name redirects
+/about_us /about-us 301
+/careers /jobs 301
+/instant_tutoring /instant-tutoring 301
+
+# Common misspellings
+/tutoring /courses 301
+/math /courses 301
+/contact /registration 301
+/signup /registration 301
+/book /registration 301

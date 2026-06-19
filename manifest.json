@@ -1,0 +1,16 @@
+{
+  "name": "The Study Zone - Elite Tutoring",
+  "short_name": "Study Zone",
+  "description": "Elite tutoring in Brampton, Caledon & GTA. Math, Science, IB, EQAO prep.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1f3d",
+  "theme_color": "#c5a059",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "categories": ["education", "tutoring"],
+  "lang": "en-CA"
+}
