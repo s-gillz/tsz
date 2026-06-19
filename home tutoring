@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>In-Home Tutoring Brampton, Caledon & Bolton | Private Tutors at Your Home | The Study Zone</title>
+    <meta name="description" content="Premium in-home tutoring in Brampton, Caledon, Bolton & GTA. Ontario-certified tutors come to your home. Math, Science, IB, AP for Grades K-12. Book free assessment.">
+    <meta name="keywords" content="in-home tutoring brampton, home tutor caledon, private tutor bolton, in-home math tutor GTA, home tutoring ontario, private tutoring peel region">
+    <link rel="canonical" href="https://www.thestudyzone.ca/home-tutoring">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.thestudyzone.ca/home-tutoring">
+    <meta property="og:title" content="In-Home Tutoring Brampton, Caledon & Bolton | The Study Zone">
+    <meta property="og:description" content="Ontario-certified tutors come to your home. Premium in-person tutoring in Brampton, Caledon, Bolton & GTA.">
+    <meta property="og:image" content="https://www.thestudyzone.ca/og-home-tutoring.jpg">
+    
+    <!-- Preconnect & Fonts -->
+    <link rel="preconnect" href="https://images.pexels.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Schema: Service (In-Home Tutoring) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "In-Home Tutoring",
+      "description": "Premium in-home tutoring services in Brampton, Caledon, Bolton, and the GTA. Ontario-certified tutors come directly to your home for personalized, distraction-free academic coaching.",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "The Study Zone",
+        "url": "https://www.thestudyzone.ca/"
+      },
+      "areaServed": [
+        {"@type": "City", "name": "Brampton"},
+        {"@type": "City", "name": "Caledon"},
+        {"@type": "City", "name": "Bolton"},
+        {"@type": "City", "name": "Mississauga"},
+        {"@type": "AdministrativeArea", "name": "Peel Region"}
+      ],
+      "serviceType": "In-Person Tutoring",
+      "offers": {
+        "@type": "Offer",
+        "price": "45",
+        "priceCurrency": "CAD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "45",
+          "priceCurrency": "CAD",
+          "unitText": "HOUR"
+        }
+      }
+    }
+    </script>
+
+    <style>
+        /* --- Base Variables & Reset --- */
+        :root {
+            --navy: #0f1f3d;
+            --gold: #c5a059;
+            --gold-dark: #a8874a;
+            --off-white: #faf8f5;
+            --light-gray: #f0ede8;
+            --text: #2a2a2a;
+            --text-light: #666;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--off-white); line-height: 1.6; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--navy); line-height: 1.2; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .btn { display: inline-block; padding: 14px 32px; border-radius: 6px; font-weight: 600; text-decoration: none; transition: all 0.3s; cursor: pointer; border: none; font-size: 16px; }
+        .btn-primary { background: var(--gold); color: var(--navy); }
+        .btn-primary:hover { background: var(--gold-dark); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(197,160,89,0.3); }
+        .btn-secondary { background: transparent; color: var(--navy); border: 2px solid var(--navy); }
+        .btn-secondary:hover { background: var(--navy); color: white; }
+
+        /* --- Navigation & Footer --- */
+        .main-nav { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+        .nav-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; color: var(--navy); text-decoration: none; }
+        .logo span { color: var(--gold); }
+        .nav-links { display: flex; list-style: none; gap: 30px; align-items: center; }
+        .nav-links a { color: var(--navy); text-decoration: none; font-weight: 500; font-size: 15px; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--gold); }
+        .nav-cta { background: var(--gold); color: var(--navy) !important; padding: 10px 20px; border-radius: 6px; }
+        .dropdown { position: relative; }
+        .dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: white; box-shadow: 0 8px 20px rgba(0,0,0,0.1); border-radius: 6px; min-width: 200px; padding: 10px 0; z-index: 101; }
+        .dropdown:hover .dropdown-menu { display: block; }
+        .dropdown-menu li { list-style: none; }
+        .dropdown-menu a { display: block; padding: 10px 20px; }
+        .mobile-toggle { display: none; background: none; border: none; font-size: 24px; cursor: pointer; color: var(--navy); }
+
+        footer { background: var(--navy); color: white; padding: 60px 0 20px; margin-top: 80px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        .footer-col h4 { color: var(--gold); margin-bottom: 15px; font-family: 'Inter', sans-serif; font-size: 16px; }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 8px; }
+        .footer-col a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 14px; }
+        .footer-col a:hover { color: var(--gold); }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; text-align: center; font-size: 13px; opacity: 0.7; }
+
+        /* --- Home Tutoring Page Specific Styles --- */
+        .page-hero { background: linear-gradient(135deg, var(--navy) 0%, #1a3260 100%); color: white; padding: 80px 0; text-align: center; position: relative; overflow: hidden; }
+        .page-hero::before { content: ''; position: absolute; top: 0; right: 0; width: 50%; height: 100%; background: url('https://images.pexels.com/photos/5940841/pexels-photo-5940841.jpeg?auto=compress&cs=tinysrgb&w=1200') center/cover; opacity: 0.15; }
+        .page-hero h1 { color: white; font-size: 48px; margin-bottom: 20px; position: relative; }
+        .page-hero h1 span { color: var(--gold); }
+        .page-hero p { font-size: 19px; opacity: 0.9; max-width: 750px; margin: 0 auto 30px; position: relative; line-height: 1.7; }
+        .page-hero .badge { display: inline-block; background: rgba(197,160,89,0.2); color: var(--gold); padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; margin-bottom: 20px; border: 1px solid var(--gold); position: relative; }
+
+        /* Benefits Section */
+        .benefits { padding: 80px 0; }
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 50px; }
+        .benefit-card { background: white; padding: 35px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s; border-top: 4px solid var(--gold); }
+        .benefit-card:hover { transform: translateY(-5px); box-shadow: 0 12px 30px rgba(0,0,0,0.1); }
+        .benefit-icon { font-size: 40px; margin-bottom: 15px; }
+        .benefit-card h3 { font-size: 20px; margin-bottom: 10px; }
+        .benefit-card p { color: var(--text-light); font-size: 15px; line-height: 1.7; }
+
+        /* How It Works */
+        .how-it-works { background: var(--light-gray); padding: 80px 0; }
+        .steps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 30px; margin-top: 50px; }
+        .step-card { background: white; padding: 30px; border-radius: 12px; text-align: center; position: relative; }
+        .step-number { position: absolute; top: -20px; left: 50%; transform: translateX(-50%); background: var(--gold); color: var(--navy); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px; }
+        .step-card h3 { font-size: 18px; margin: 15px 0 10px; }
+        .step-card p { color: var(--text-light); font-size: 14px; line-height: 1.6; }
+
+        /* Locations Section */
+        .locations { padding: 80px 0; }
+        .location-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 50px; }
+        .location-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+        .location-card-header { background: var(--navy); color: white; padding: 20px; text-align: center; }
+        .location-card-header h3 { color: white; font-size: 24px; margin: 0; }
+        .location-card-body { padding: 25px; }
+        .location-card-body p { color: var(--text-light); font-size: 14px; line-height: 1.7; margin-bottom: 15px; }
+        .location-card-body ul { list-style: none; padding: 0; }
+        .location-card-body li { padding: 6px 0; font-size: 14px; color: var(--text); border-bottom: 1px solid var(--light-gray); }
+        .location-card-body li:last-child { border-bottom: none; }
+        .location-card-body li::before { content: '✓ '; color: var(--gold); font-weight: 700; margin-right: 5px; }
+
+        /* Pricing Section */
+        .pricing { background: var(--navy); color: white; padding: 80px 0; }
+        .pricing h2 { color: white; text-align: center; font-size: 36px; margin-bottom: 15px; }
+        .pricing > .container > p { text-align: center; opacity: 0.9; margin-bottom: 50px; font-size: 17px; }
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1000px; margin: 0 auto; }
+        .pricing-card { background: rgba(255,255,255,0.1); padding: 35px; border-radius: 12px; text-align: center; border: 2px solid rgba(255,255,255,0.2); transition: all 0.3s; }
+        .pricing-card:hover { border-color: var(--gold); transform: translateY(-5px); }
+        .pricing-card.featured { background: var(--gold); color: var(--navy); border-color: var(--gold); }
+        .pricing-card h3 { font-size: 20px; margin-bottom: 10px; }
+        .pricing-card .price { font-size: 48px; font-weight: 700; margin: 15px 0; font-family: 'Playfair Display', serif; }
+        .pricing-card .price span { font-size: 18px; font-weight: 400; }
+        .pricing-card p { font-size: 14px; opacity: 0.9; margin-bottom: 20px; }
+        .pricing-card.featured h3, .pricing-card.featured .price { color: var(--navy); }
+
+        /* Trust Section */
+        .trust { padding: 80px 0; }
+        .trust-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 30px; margin-top: 50px; }
+        .trust-item { text-align: center; }
+        .trust-icon { font-size: 48px; margin-bottom: 15px; }
+        .trust-item h3 { font-size: 18px; margin-bottom: 10px; }
+        .trust-item p { color: var(--text-light); font-size: 14px; line-height: 1.6; }
+
+        /* CTA Section */
+        .cta-section { padding: 80px 0; text-align: center; background: var(--light-gray); }
+        .cta-section h2 { font-size: 36px; margin-bottom: 15px; }
+        .cta-section p { color: var(--text-light); font-size: 17px; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .cta-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+
+        /* Sticky CTA & WhatsApp */
+        .sticky-cta { position: fixed; bottom: 0; left: 0; right: 0; background: var(--navy); color: white; padding: 15px 20px; display: flex; justify-content: center; align-items: center; gap: 15px; z-index: 99; box-shadow: 0 -4px 20px rgba(0,0,0,0.2); }
+        .sticky-cta p { margin: 0; font-size: 15px; }
+        .sticky-cta .btn { padding: 10px 20px; font-size: 14px; }
+        .whatsapp-btn { position: fixed; bottom: 80px; right: 20px; background: #25D366; color: white; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; text-decoration: none; box-shadow: 0 4px 15px rgba(37,211,102,0.4); z-index: 98; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: white; flex-direction: column; padding: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+            .nav-links.active { display: flex; }
+            .mobile-toggle { display: block; }
+            .page-hero h1 { font-size: 34px; }
+            .pricing h2, .cta-section h2 { font-size: 28px; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+            .sticky-cta p { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Standardized Navigation -->
+<nav class="main-nav" aria-label="Main Navigation">
+    <div class="nav-container">
+        <a href="/" class="logo">The Study <span>Zone</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="/courses">Programs</a></li>
+            <li><a href="/about-us">About</a></li>
+            <li><a href="/home-tutoring">Home Tutoring</a></li>
+            <li><a href="/instant-tutoring">Instant Tutoring</a></li>
+            <li class="dropdown">
+                <a href="#">Resources ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="/articles">Articles & Blog</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/jobs">Careers</a></li>
+                </ul>
+            </li>
+            <li><a href="/registration" class="nav-cta">Register</a></li>
+        </ul>
+        <button class="mobile-toggle" aria-label="Toggle menu" onclick="document.getElementById('navLinks').classList.toggle('active')">☰</button>
+    </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="page-hero">
+    <div class="container">
+        <span class="badge">🏠 Premium In-Home Service</span>
+        <h1>In-Home Tutoring in <span>Brampton</span>, Caledon & Bolton</h1>
+        <p>Bring the classroom to your living room. Our Ontario-certified tutors come directly to your home, providing personalized, distraction-free academic coaching in the comfort of your space.</p>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 36px; margin-bottom: 15px;">Why Choose In-Home Tutoring?</h2>
+        <p style="text-align: center; color: var(--text-light); font-size: 17px; max-width: 700px; margin: 0 auto;">Families across the GTA choose in-home tutoring for the convenience, focus, and personalized attention it provides.</p>
+        
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">🏡</div>
+                <h3>Comfort & Convenience</h3>
+                <p>No driving to tutoring centers. Your child learns in a familiar, comfortable environment where they can focus without the stress of travel.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🎯</div>
+                <h3>Distraction-Free Zone</h3>
+                <p>Your home is free from the distractions of a classroom or public space. Your child gets 100% of the tutor's attention in a quiet, controlled setting.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">👨‍👩‍👧</div>
+                <h3>Parental Oversight</h3>
+                <p>Stay nearby and involved. You can observe sessions, check in with the tutor, and see your child's progress firsthand without leaving home.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">📅</div>
+                <h3>Flexible Scheduling</h3>
+                <p>Work around your family's schedule. Evening and weekend appointments available. No more rushing from school to a tutoring center.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🔒</div>
+                <h3>Safe & Secure</h3>
+                <p>All tutors undergo criminal background checks (Vulnerable Sector Screening) and reference verification. Your child's safety is our top priority.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">📚</div>
+                <h3>All Materials Provided</h3>
+                <p>Our tutors bring all necessary materials, worksheets, and resources. No need to purchase additional textbooks or supplies.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works -->
+<section class="how-it-works">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 36px; margin-bottom: 15px;">How In-Home Tutoring Works</h2>
+        <p style="text-align: center; color: var(--text-light); font-size: 17px; max-width: 600px; margin: 0 auto;">Getting started is simple. We handle the logistics so you can focus on your child's success.</p>
+        
+        <div class="steps-grid">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3>Book Free Assessment</h3>
+                <p>Fill out our registration form or call us. We'll schedule a free academic assessment to identify your child's needs.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3>Meet Your Tutor</h3>
+                <p>We match you with an Ontario-certified tutor based on subject, grade level, and learning style. Meet them during the assessment.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3>Schedule Sessions</h3>
+                <p>Choose a schedule that works for your family. Most families book 1-2 sessions per week, but we're flexible.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">4</div>
+                <h3>Watch Them Thrive</h3>
+                <p>Your tutor comes to your home at the scheduled time. You'll receive regular progress reports and see grades improve.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Locations Section -->
+<section class="locations">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 36px; margin-bottom: 15px;">Serving Families Across the GTA</h2>
+        <p style="text-align: center; color: var(--text-light); font-size: 17px; max-width: 700px; margin: 0 auto;">Our tutors are available throughout Brampton, Caledon, Bolton, and surrounding communities.</p>
+        
+        <div class="location-cards">
+            <div class="location-card">
+                <div class="location-card-header">
+                    <h3>📍 Brampton</h3>
+                </div>
+                <div class="location-card-body">
+                    <p>Premium in-home tutoring available throughout Brampton, including:</p>
+                    <ul>
+                        <li>Downtown Brampton</li>
+                        <li>Mount Pleasant</li>
+                        <li>Bramalea</li>
+                        <li>Sandringham</li>
+                        <li>Heart Lake</li>
+                        <li>Churchill Meadows</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="location-card">
+                <div class="location-card-header">
+                    <h3>📍 Caledon</h3>
+                </div>
+                <div class="location-card-body">
+                    <p>Serving families across Caledon, including:</p>
+                    <ul>
+                        <li>Caledon East</li>
+                        <li>Caledon Village</li>
+                        <li>Bolton (Caledon)</li>
+                        <li>Mayfield West</li>
+                        <li>Palgrave</li>
+                        <li>Innisville</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="location-card">
+                <div class="location-card-header">
+                    <h3>📍 Bolton & Beyond</h3>
+                </div>
+                <div class="location-card-body">
+                    <p>Also serving:</p>
+                    <ul>
+                        <li>Bolton</li>
+                        <li>Mississauga (North)</li>
+                        <li>Orangeville</li>
+                        <li> Vaughan (North)</li>
+                        <li>King City</li>
+                        <li>Township of Adjala-Tosorontio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="pricing">
+    <div class="container">
+        <h2>Transparent Pricing</h2>
+        <p>No hidden fees. No long-term contracts. Just quality tutoring at fair prices.</p>
+        
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Grades K-8</h3>
+                <div class="price">$45<span>/hour</span></div>
+                <p>All subjects including Math, Reading, Writing, Science, and French</p>
+                <a href="/registration" class="btn btn-primary" style="background: white; color: var(--navy);">Book Assessment</a>
+            </div>
+            <div class="pricing-card featured">
+                <h3>Grades 9-10</h3>
+                <div class="price">$55<span>/hour</span></div>
+                <p>Academic subjects: MTH1W, MPM2D, Science, English, and more</p>
+                <a href="/registration" class="btn btn-primary" style="background: var(--navy); color: white;">Book Assessment</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Grades 11-12, IB & AP</h3>
+                <div class="price">$65<span>/hour</span></div>
+                <p>Advanced subjects: MCV4U, MHF4U, IB, AP, and university prep</p>
+                <a href="/registration" class="btn btn-primary" style="background: white; color: var(--navy);">Book Assessment</a>
+            </div>
+        </div>
+        
+        <p style="text-align: center; margin-top: 40px; font-size: 15px; opacity: 0.9;">
+            💰 <strong>Package Discounts:</strong> 10% off 10-session packages | 15% off 20-session packages<br>
+            🎁 <strong>Your first assessment is always FREE</strong>
+        </p>
+    </div>
+</section>
+
+<!-- Trust Section -->
+<section class="trust">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 36px; margin-bottom: 15px;">Why Parents Trust Us</h2>
+        <p style="text-align: center; color: var(--text-light); font-size: 17px; max-width: 600px; margin: 0 auto;">Over 500 families across the GTA have chosen The Study Zone for in-home tutoring.</p>
+        
+        <div class="trust-grid">
+            <div class="trust-item">
+                <div class="trust-icon">🎓</div>
+                <h3>Ontario-Certified Tutors</h3>
+                <p>Every tutor is a certified teacher or university graduate with deep subject expertise and pedagogical training.</p>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">🔍</div>
+                <h3>Background Checked</h3>
+                <p>All tutors undergo criminal background checks (Vulnerable Sector) and reference verification for your peace of mind.</p>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">📊</div>
+                <h3>Progress Reports</h3>
+                <p>Regular updates on your child's progress so you always know how they're improving and what we're working on.</p>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon">🔄</div>
+                <h3>Perfect Match Guarantee</h3>
+                <p>If your child isn't connecting with their tutor, we'll find a better fit at no extra cost. Your satisfaction is guaranteed.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container">
+        <h2>Ready to Get Started?</h2>
+        <p>Book your free assessment today and see how in-home tutoring can transform your child's academic journey. No commitment, no pressure.</p>
+        <div class="cta-buttons">
+            <a href="/registration" class="btn btn-primary">Book Free Assessment</a>
+            <a href="tel:+16478494344" class="btn btn-secondary">Call (647) 849-4344</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>The Study Zone</h4>
+                <p style="font-size: 14px; opacity: 0.8; margin-bottom: 15px;">Premium academic coaching and tutoring services. Building the next generation of thinkers, leaders, and innovators.</p>
+                <p style="font-size: 14px; opacity: 0.8;">📍 Serving Brampton, Caledon, Bolton & GTA</p>
+                <p style="font-size: 14px; opacity: 0.8;">📞 <a href="tel:+16478494344" style="color: var(--gold);">(647) 849-4344</a></p>
+            </div>
+            <div class="footer-col">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="/courses">K-12 Tutoring</a></li>
+                    <li><a href="/courses#ib">IB & AP Prep</a></li>
+                    <li><a href="/courses#coding">STEM & Coding</a></li>
+                    <li><a href="/summer-program">Summer Program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/home-tutoring">Home Tutoring</a></li>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/registration">Register</a></li>
+                    <li><a href="/instant-tutoring">Instant Tutoring</a></li>
+                    <li><a href="/jobs">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 The Study Zone (TSZ). All rights reserved. Serving Brampton, Caledon, Bolton & GTA.
+        </div>
+    </div>
+</footer>
+
+<!-- Sticky CTA Bar -->
+<div class="sticky-cta">
+    <p>🏠 In-Home Tutoring — Book Your Free Assessment</p>
+    <a href="/registration" class="btn btn-primary">Register Now</a>
+</div>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/16478494344" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+
+</body>
+</html>
