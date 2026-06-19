@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Feedback & Reviews | Parent Success Stories in Brampton & GTA | The Study Zone</title>
+    <meta name="description" content="Read success stories from Brampton, Caledon & Bolton families. Leave your feedback or review The Study Zone on Google to help other parents find elite tutoring.">
+    <meta name="keywords" content="tutoring reviews brampton, study zone caledon reviews, math tutor testimonials GTA, feedback tutoring ontario, best tutor brampton reviews">
+    <link rel="canonical" href="https://www.thestudyzone.ca/feedback">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.thestudyzone.ca/feedback">
+    <meta property="og:title" content="Feedback & Reviews | The Study Zone">
+    <meta property="og:description" content="Real success stories from families in Brampton, Caledon, and Bolton. See why 500+ families trust The Study Zone.">
+    <meta property="og:image" content="https://www.thestudyzone.ca/og-feedback.jpg">
+    
+    <!-- Preconnect & Fonts -->
+    <link rel="preconnect" href="https://images.pexels.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Schema: LocalBusiness with Reviews (CRITICAL FOR LOCAL SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "The Study Zone",
+      "url": "https://www.thestudyzone.ca/",
+      "telephone": "+1-647-849-4344",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Brampton",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Sarah M." },
+          "datePublished": "2026-05-10",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "The Study Zone transformed my son's approach to math. He went from dreading MPM2D to actually enjoying it. The tutors in Brampton are incredible!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "David K." },
+          "datePublished": "2026-04-22",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "reviewBody": "My daughter needed help with MCV4U Calculus. The concept-first approach here is exactly what she needed to get into her engineering program. Highly recommend!"
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        /* --- Base Variables & Reset --- */
+        :root {
+            --navy: #0f1f3d;
+            --gold: #c5a059;
+            --gold-dark: #a8874a;
+            --off-white: #faf8f5;
+            --light-gray: #f0ede8;
+            --text: #2a2a2a;
+            --text-light: #666;
+            --google-blue: #4285F4;
+            --fb-blue: #1877F2;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--off-white); line-height: 1.6; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--navy); line-height: 1.2; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .btn { display: inline-block; padding: 14px 32px; border-radius: 6px; font-weight: 600; text-decoration: none; transition: all 0.3s; cursor: pointer; border: none; font-size: 16px; }
+        .btn-primary { background: var(--gold); color: var(--navy); }
+        .btn-primary:hover { background: var(--gold-dark); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(197,160,89,0.3); }
+        .btn-secondary { background: transparent; color: var(--navy); border: 2px solid var(--navy); }
+        .btn-secondary:hover { background: var(--navy); color: white; }
+        .btn-google { background: var(--google-blue); color: white; }
+        .btn-google:hover { background: #3367d6; }
+        .btn-fb { background: var(--fb-blue); color: white; }
+        .btn-fb:hover { background: #166fe5; }
+
+        /* --- Navigation & Footer --- */
+        .main-nav { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+        .nav-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; color: var(--navy); text-decoration: none; }
+        .logo span { color: var(--gold); }
+        .nav-links { display: flex; list-style: none; gap: 30px; align-items: center; }
+        .nav-links a { color: var(--navy); text-decoration: none; font-weight: 500; font-size: 15px; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--gold); }
+        .nav-cta { background: var(--gold); color: var(--navy) !important; padding: 10px 20px; border-radius: 6px; }
+        .dropdown { position: relative; }
+        .dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: white; box-shadow: 0 8px 20px rgba(0,0,0,0.1); border-radius: 6px; min-width: 200px; padding: 10px 0; z-index: 101; }
+        .dropdown:hover .dropdown-menu { display: block; }
+        .dropdown-menu li { list-style: none; }
+        .dropdown-menu a { display: block; padding: 10px 20px; }
+        .mobile-toggle { display: none; background: none; border: none; font-size: 24px; cursor: pointer; color: var(--navy); }
+
+        footer { background: var(--navy); color: white; padding: 60px 0 20px; margin-top: 80px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        .footer-col h4 { color: var(--gold); margin-bottom: 15px; font-family: 'Inter', sans-serif; font-size: 16px; }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 8px; }
+        .footer-col a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 14px; }
+        .footer-col a:hover { color: var(--gold); }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; text-align: center; font-size: 13px; opacity: 0.7; }
+
+        /* --- Feedback Page Specific Styles --- */
+        .page-hero { background: linear-gradient(135deg, var(--navy) 0%, #1a3260 100%); color: white; padding: 80px 0; text-align: center; position: relative; overflow: hidden; }
+        .page-hero::before { content: ''; position: absolute; top: 0; right: 0; width: 40%; height: 100%; background: url('https://images.pexels.com/photos/5940841/pexels-photo-5940841.jpeg?auto=compress&cs=tinysrgb&w=1200') center/cover; opacity: 0.1; }
+        .page-hero h1 { color: white; font-size: 48px; margin-bottom: 20px; position: relative; }
+        .page-hero p { font-size: 19px; opacity: 0.9; max-width: 750px; margin: 0 auto; position: relative; line-height: 1.7; }
+        .page-hero .badge { display: inline-block; background: rgba(197,160,89,0.2); color: var(--gold); padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; margin-bottom: 20px; border: 1px solid var(--gold); position: relative; }
+
+        /* Review CTA Section */
+        .review-cta { background: white; padding: 60px 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.05); margin: -40px auto 60px; max-width: 900px; border-radius: 16px; position: relative; z-index: 10; }
+        .review-cta h2 { font-size: 32px; margin-bottom: 15px; }
+        .review-cta p { color: var(--text-light); font-size: 16px; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .review-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .review-buttons .btn { display: flex; align-items: center; gap: 10px; padding: 14px 28px; font-size: 16px; }
+        .review-buttons .btn span.icon { font-size: 20px; }
+
+        /* Testimonials Grid */
+        .testimonials { padding: 40px 0 80px; }
+        .section-header { text-align: center; margin-bottom: 50px; }
+        .section-header h2 { font-size: 36px; margin-bottom: 15px; }
+        .section-header p { color: var(--text-light); font-size: 17px; max-width: 600px; margin: 0 auto; }
+        
+        .testimonials-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .testimonial-card { background: white; padding: 35px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); position: relative; transition: transform 0.3s; border: 1px solid var(--light-gray); }
+        .testimonial-card:hover { transform: translateY(-5px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); border-color: var(--gold); }
+        .testimonial-card::before { content: '"'; position: absolute; top: 10px; left: 20px; font-size: 80px; color: var(--gold); opacity: 0.2; font-family: 'Playfair Display', serif; line-height: 1; }
+        .stars { color: var(--gold); font-size: 18px; margin-bottom: 15px; letter-spacing: 2px; }
+        .testimonial-text { font-size: 15px; line-height: 1.8; color: var(--text); margin-bottom: 20px; font-style: italic; }
+        .testimonial-author { display: flex; align-items: center; gap: 12px; border-top: 1px solid var(--light-gray); padding-top: 15px; }
+        .author-avatar { width: 45px; height: 45px; border-radius: 50%; background: var(--navy); color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; }
+        .author-info h4 { font-size: 15px; margin-bottom: 2px; font-family: 'Inter', sans-serif; color: var(--navy); }
+        .author-info p { font-size: 13px; color: var(--text-light); margin: 0; }
+
+        /* Feedback Form Section */
+        .feedback-form-section { background: var(--light-gray); padding: 80px 0; }
+        .form-wrapper { max-width: 700px; margin: 0 auto; background: white; padding: 50px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        .form-wrapper h2 { font-size: 32px; margin-bottom: 10px; text-align: center; }
+        .form-wrapper > p { color: var(--text-light); text-align: center; margin-bottom: 30px; font-size: 16px; }
+        
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; font-weight: 600; color: var(--navy); margin-bottom: 8px; font-size: 14px; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 14px; border: 1px solid #ddd; border-radius: 8px; font-size: 15px; font-family: inherit; transition: border-color 0.3s; }
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(197,160,89,0.1); }
+        .form-group textarea { resize: vertical; min-height: 120px; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        
+        .submit-btn { width: 100%; background: var(--navy); color: white; padding: 16px; border: none; border-radius: 8px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.3s; }
+        .submit-btn:hover { background: #1a3260; }
+        .form-note { text-align: center; font-size: 13px; color: var(--text-light); margin-top: 15px; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: white; flex-direction: column; padding: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+            .nav-links.active { display: flex; }
+            .mobile-toggle { display: block; }
+            .page-hero h1 { font-size: 34px; }
+            .review-cta { margin-top: -20px; padding: 40px 20px; }
+            .review-cta h2 { font-size: 26px; }
+            .form-row { grid-template-columns: 1fr; }
+            .form-wrapper { padding: 30px 20px; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Standardized Navigation -->
+<nav class="main-nav" aria-label="Main Navigation">
+    <div class="nav-container">
+        <a href="/" class="logo">The Study <span>Zone</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="/courses">Programs</a></li>
+            <li><a href="/about-us">About</a></li>
+            <li><a href="/home-tutoring">Home Tutoring</a></li>
+            <li><a href="/instant-tutoring">Instant Tutoring</a></li>
+            <li class="dropdown">
+                <a href="#">Resources ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="/articles">Articles & Blog</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/jobs">Careers</a></li>
+                </ul>
+            </li>
+            <li><a href="/registration" class="nav-cta">Register</a></li>
+        </ul>
+        <button class="mobile-toggle" aria-label="Toggle menu" onclick="document.getElementById('navLinks').classList.toggle('active')">☰</button>
+    </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="page-hero">
+    <div class="container">
+        <span class="badge">⭐ 4.9/5 Average Rating</span>
+        <h1>Parent & Student Success Stories</h1>
+        <p>Real feedback from real families in Brampton, Caledon, Bolton, and across the GTA. See why over 500 families trust The Study Zone for their academic journey.</p>
+    </div>
+</section>
+
+<!-- Review CTA Section -->
+<div class="container">
+    <div class="review-cta">
+        <h2>Love Your Experience? Help Other Families Find Us!</h2>
+        <p>Whether your child just aced their MCV4U exam or finally understands Grade 9 math, we'd be thrilled if you shared your experience. It only takes 30 seconds!</p>
+        <div class="review-buttons">
+            <a href="https://search.google.com/local/writereview?placeid=ChIJyour_place_id_here" target="_blank" rel="noopener" class="btn btn-google">
+                <span class="icon">📍</span> Leave a Google Review
+            </a>
+            <a href="https://www.facebook.com/thestudyzone/reviews/" target="_blank" rel="noopener" class="btn btn-fb">
+                <span class="icon">👍</span> Review on Facebook
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonials Grid -->
+<section class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <h2>Featured Success Stories</h2>
+            <p>From math anxiety to university acceptance — here's what our community is saying.</p>
+        </div>
+        
+        <div class="testimonials-grid">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"The Study Zone transformed my son's approach to math. He went from dreading MPM2D to actually enjoying it. The concept-first method means he finally understands the 'why' behind the equations. The tutors in Brampton are incredible!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">SM</div>
+                    <div class="author-info">
+                        <h4>Sarah M.</h4>
+                        <p>Parent of Grade 10 Student • Brampton</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"My daughter needed help with MCV4U Calculus and Vectors. The personalized attention she got here was exactly what she needed to get into her engineering program at Waterloo. Highly recommend to any high schooler!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">DK</div>
+                    <div class="author-info">
+                        <h4>David K.</h4>
+                        <p>Parent of Grade 12 Student • Caledon</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"We tried a big-box tutoring center before, but it was too impersonal. TSZ matched us with an amazing tutor who comes to our home in Bolton. The flexibility and progress reports are fantastic. Worth every penny."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">PT</div>
+                    <div class="author-info">
+                        <h4>Priya T.</h4>
+                        <p>Parent of Grade 7 Student • Bolton</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"The online IB Math HL support is top-tier. My tutor helped me nail my Internal Assessment and prepared me thoroughly for the final exams. The interactive whiteboard makes it feel like we're in the same room."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">ML</div>
+                    <div class="author-info">
+                        <h4>Michael L.</h4>
+                        <p>IB Diploma Student • Online (Ontario)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Feedback Form Section -->
+<section class="feedback-form-section">
+    <div class="container">
+        <div class="form-wrapper">
+            <h2>Share Your Feedback Directly With Us</h2>
+            <p>Have a suggestion, a compliment, or a concern? We read every message and use your feedback to continuously improve our tutoring services.</p>
+            
+            <!-- ============================================ -->
+            <!-- FORM INTEGRATION (JOTFORM OR NATIVE)         -->
+            <!-- ============================================ -->
+            <!-- 
+            Replace this form with your JotForm embed code, 
+            or use a service like Formspree/Netlify Forms.
+            -->
+            <form action="https://formspree.io/f/YOUR_FEEDBACK_FORM_ID" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="parent-name">Your Name *</label>
+                        <input type="text" id="parent-name" name="parent_name" required placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="student-info">Student Name & Grade</label>
+                        <input type="text" id="student-info" name="student_info" placeholder="John Doe, Grade 10">
+                    </div>
+                    <div class="form-group">
+                        <label for="feedback-type">Feedback Type *</label>
+                        <select id="feedback-type" name="feedback_type" required>
+                            <option value="">Select an option...</option>
+                            <option value="compliment">Compliment / Kudos</option>
+                            <option value="suggestion">Suggestion for Improvement</option>
+                            <option value="concern">Concern or Complaint</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message *</label>
+                    <textarea id="message" name="message" required placeholder="Tell us about your experience, or how we can improve..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+                <p class="form-note">🔒 Your feedback is confidential and will be reviewed by our management team within 48 hours.</p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>The Study Zone</h4>
+                <p style="font-size: 14px; opacity: 0.8; margin-bottom: 15px;">Premium academic coaching and tutoring services. Building the next generation of thinkers, leaders, and innovators.</p>
+                <p style="font-size: 14px; opacity: 0.8;">📍 Serving Brampton, Caledon, Bolton & GTA</p>
+                <p style="font-size: 14px; opacity: 0.8;">📞 <a href="tel:+16478494344" style="color: var(--gold);">(647) 849-4344</a></p>
+            </div>
+            <div class="footer-col">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="/courses">K-12 Tutoring</a></li>
+                    <li><a href="/courses#ib">IB & AP Prep</a></li>
+                    <li><a href="/courses#coding">STEM & Coding</a></li>
+                    <li><a href="/summer-program">Summer Program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/home-tutoring">Home Tutoring</a></li>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/registration">Register</a></li>
+                    <li><a href="/instant-tutoring">Instant Tutoring</a></li>
+                    <li><a href="/jobs">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 The Study Zone (TSZ). All rights reserved. Serving Brampton, Caledon, Bolton & GTA.
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
