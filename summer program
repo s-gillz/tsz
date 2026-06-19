@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Summer Tutoring Program | Prevent Summer Slide in Brampton & GTA | The Study Zone</title>
+    <meta name="description" content="Summer tutoring in Brampton, Caledon, Bolton & GTA. Prevent summer slide, get ahead, or catch up. Flexible scheduling, Ontario-certified tutors. Book free assessment.">
+    <meta name="keywords" content="summer tutoring brampton, summer math program caledon, prevent summer slide GTA, summer tutoring ontario, catch up tutoring summer, preview courses summer">
+    <link rel="canonical" href="https://www.thestudyzone.ca/summer-program">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.thestudyzone.ca/summer-program">
+    <meta property="og:title" content="Summer Tutoring Program | The Study Zone">
+    <meta property="og:description" content="Prevent summer slide and get ahead. Flexible summer tutoring in Brampton, Caledon, Bolton & online.">
+    <meta property="og:image" content="https://www.thestudyzone.ca/og-summer.jpg">
+    
+    <!-- Preconnect & Fonts -->
+    <link rel="preconnect" href="https://images.pexels.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Schema: Course (Summer Program) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Summer Tutoring Program 2026",
+      "description": "Comprehensive summer tutoring programs to prevent learning loss, catch up on challenging subjects, or preview upcoming curriculum. Flexible scheduling with Ontario-certified tutors in Brampton, Caledon, Bolton, and online.",
+      "provider": {
+        "@type": "EducationalOrganization",
+        "name": "The Study Zone",
+        "url": "https://www.thestudyzone.ca/"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": ["Online", "In-person"],
+        "startDate": "2026-07-01",
+        "endDate": "2026-08-31",
+        "location": {
+          "@type": "Place",
+          "name": "The Study Zone - Brampton & GTA",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Brampton",
+            "addressRegion": "ON",
+            "addressCountry": "CA"
+          }
+        }
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "45",
+        "priceCurrency": "CAD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "45",
+          "priceCurrency": "CAD",
+          "unitText": "HOUR"
+        }
+      }
+    }
+    </script>
+
+    <style>
+        /* --- Base Variables & Reset --- */
+        :root {
+            --navy: #0f1f3d;
+            --gold: #c5a059;
+            --gold-dark: #a8874a;
+            --off-white: #faf8f5;
+            --light-gray: #f0ede8;
+            --text: #2a2a2a;
+            --text-light: #666;
+            --summer-blue: #3b82f6;
+            --summer-orange: #f59e0b;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--off-white); line-height: 1.6; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--navy); line-height: 1.2; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .btn { display: inline-block; padding: 14px 32px; border-radius: 6px; font-weight: 600; text-decoration: none; transition: all 0.3s; cursor: pointer; border: none; font-size: 16px; }
+        .btn-primary { background: var(--gold); color: var(--navy); }
+        .btn-primary:hover { background: var(--gold-dark); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(197,160,89,0.3); }
+        .btn-secondary { background: transparent; color: var(--navy); border: 2px solid var(--navy); }
+        .btn-secondary:hover { background: var(--navy); color: white; }
+
+        /* --- Navigation & Footer --- */
+        .main-nav { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100; }
+        .nav-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; color: var(--navy); text-decoration: none; }
+        .logo span { color: var(--gold); }
+        .nav-links { display: flex; list-style: none; gap: 30px; align-items: center; }
+        .nav-links a { color: var(--navy); text-decoration: none; font-weight: 500; font-size: 15px; transition: color 0.3s; }
+        .nav-links a:hover { color: var(--gold); }
+        .nav-cta { background: var(--gold); color: var(--navy) !important; padding: 10px 20px; border-radius: 6px; }
+        .dropdown { position: relative; }
+        .dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: white; box-shadow: 0 8px 20px rgba(0,0,0,0.1); border-radius: 6px; min-width: 200px; padding: 10px 0; z-index: 101; }
+        .dropdown:hover .dropdown-menu { display: block; }
+        .dropdown-menu li { list-style: none; }
+        .dropdown-menu a { display: block; padding: 10px 20px; }
+        .mobile-toggle { display: none; background: none; border: none; font-size: 24px; cursor: pointer; color: var(--navy); }
+
+        footer { background: var(--navy); color: white; padding: 60px 0 20px; margin-top: 80px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
+        .footer-col h4 { color: var(--gold); margin-bottom: 15px; font-family: 'Inter', sans-serif; font-size: 16px; }
+        .footer-col ul { list-style: none; }
+        .footer-col li { margin-bottom: 8px; }
+        .footer-col a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 14px; }
+        .footer-col a:hover { color: var(--gold); }
+        .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; text-align: center; font-size: 13px; opacity: 0.7; }
+
+        /* --- Summer Program Page Specific Styles --- */
+        .page-hero { background: linear-gradient(135deg, var(--summer-blue) 0%, #1e40af 100%); color: white; padding: 80px 0; text-align: center; position: relative; overflow: hidden; }
+        .page-hero::before { content: ''; position: absolute; top: 0; right: 0; width: 50%; height: 100%; background: url('https://images.pexels.com/photos/4894768/pexels-photo-4894768.jpeg?auto=compress&cs=tinysrgb&w=1200') center/cover; opacity: 0.15; }
+        .page-hero h1 { color: white; font-size: 48px; margin-bottom: 20px; position: relative; }
+        .page-hero h1 span { color: var(--summer-orange); }
+        .page-hero p { font-size: 19px; opacity: 0.95; max-width: 750px; margin: 0 auto 30px; position: relative; line-height: 1.7; }
+        .page-hero .badge { display: inline-block; background: rgba(245,158,11,0.2); color: var(--summer-orange); padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; margin-bottom: 20px; border: 1px solid var(--summer-orange); position: relative; }
+        .urgency-banner { background: var(--summer-orange); color: var(--navy); padding: 12px 20px; text-align: center; font-weight: 600; font-size: 15px; }
+
+        /* Why Summer Section */
+        .why-summer { padding: 80px 0; }
+        .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+        .why-img { border-radius: 12px; box-shadow: 0 15px 40px rgba(0,0,0,0.1); width: 100%; height: 400px; object-fit: cover; }
+        .why-text h2 { font-size: 36px; margin-bottom: 20px; }
+        .why-text h2 span { color: var(--summer-blue); }
+        .why-text p { color: var(--text-light); font-size: 16px; margin-bottom: 15px; line-height: 1.8; }
+        .why-text .stat-box { background: var(--light-gray); padding: 20px; border-radius: 8px; margin-top: 25px; border-left: 4px solid var(--summer-orange); }
+        .why-text .stat-box strong { color: var(--navy); font-size: 18px; display: block; margin-bottom: 5px; }
+        .why-text .stat-box p { margin: 0; font-size: 14px; }
+
+        /* Program Options */
+        .programs { background: var(--light-gray); padding: 80px 0; }
+        .program-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 50px; }
+        .program-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.06); transition: transform 0.3s; }
+        .program-card:hover { transform: translateY(-5px); box-shadow: 0 12px 30px rgba(0,0,0,0.1); }
+        .program-card-header { background: var(--navy); color: white; padding: 25px; text-align: center; }
+        .program-card-header h3 { color: white; font-size: 24px; margin: 0; }
+        .program-card-header .icon { font-size: 40px; margin-bottom: 10px; }
+        .program-card-body { padding: 30px; }
+        .program-card-body p { color: var(--text-light); font-size: 15px; line-height: 1.7; margin-bottom: 20px; }
+        .program-card-body ul { list-style: none; padding: 0; margin-bottom: 25px; }
+        .program-card-body li { padding: 8px 0; font-size: 14px; color: var(--text); border-bottom: 1px solid var(--light-gray); }
+        .program-card-body li:last-child { border-bottom: none; }
+        .program-card-body li::before { content: '✓ '; color: var(--summer-blue); font-weight: 700; margin-right: 8px; }
+        .program-card.featured { border: 3px solid var(--summer-orange); }
+        .program-card.featured .program-card-header { background: var(--summer-orange); }
+
+        /* Benefits Section */
+        .benefits { padding: 80px 0; }
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-top: 50px; }
+        .benefit-card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); text-align: center; border-top: 4px solid var(--summer-blue); transition: transform 0.3s; }
+        .benefit-card:hover { transform: translateY(-5px); }
+        .benefit-icon { font-size: 40px; margin-bottom: 15px; }
+        .benefit-card h3 { font-size: 20px; margin-bottom: 10px; }
+        .benefit-card p { color: var(--text-light); font-size: 14px; line-height: 1.6; }
+
+        /* Pricing Section */
+        .pricing { background: var(--navy); color: white; padding: 80px 0; }
+        .pricing h2 { color: white; text-align: center; font-size: 36px; margin-bottom: 15px; }
+        .pricing > .container > p { text-align: center; opacity: 0.9; margin-bottom: 50px; font-size: 17px; }
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1000px; margin: 0 auto; }
+        .pricing-card { background: rgba(255,255,255,0.1); padding: 35px; border-radius: 12px; text-align: center; border: 2px solid rgba(255,255,255,0.2); transition: all 0.3s; }
+        .pricing-card:hover { border-color: var(--summer-orange); transform: translateY(-5px); }
+        .pricing-card.featured { background: var(--summer-orange); color: var(--navy); border-color: var(--summer-orange); }
+        .pricing-card h3 { font-size: 20px; margin-bottom: 10px; }
+        .pricing-card .price { font-size: 48px; font-weight: 700; margin: 15px 0; font-family: 'Playfair Display', serif; }
+        .pricing-card .price span { font-size: 18px; font-weight: 400; }
+        .pricing-card p { font-size: 14px; opacity: 0.9; margin-bottom: 20px; }
+        .pricing-card.featured h3, .pricing-card.featured .price { color: var(--navy); }
+
+        /* Scheduling Section */
+        .scheduling { padding: 80px 0; }
+        .schedule-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 25px; margin-top: 50px; }
+        .schedule-card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); text-align: center; }
+        .schedule-card h3 { font-size: 18px; margin-bottom: 10px; color: var(--summer-blue); }
+        .schedule-card p { color: var(--text-light); font-size: 14px; line-height: 1.6; }
+
+        /* CTA Section */
+        .cta-section { background: linear-gradient(135deg, var(--summer-orange) 0%, #d97706 100%); padding: 80px 0; text-align: center; }
+        .cta-section h2 { color: var(--navy); font-size: 40px; margin-bottom: 15px; }
+        .cta-section p { color: var(--navy); font-size: 18px; margin-bottom: 30px; opacity: 0.9; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .cta-section .btn { background: var(--navy); color: white; }
+        .cta-section .btn:hover { background: #1a3260; }
+
+        /* Sticky CTA & WhatsApp */
+        .sticky-cta { position: fixed; bottom: 0; left: 0; right: 0; background: var(--navy); color: white; padding: 15px 20px; display: flex; justify-content: center; align-items: center; gap: 15px; z-index: 99; box-shadow: 0 -4px 20px rgba(0,0,0,0.2); }
+        .sticky-cta p { margin: 0; font-size: 15px; }
+        .sticky-cta .btn { padding: 10px 20px; font-size: 14px; }
+        .whatsapp-btn { position: fixed; bottom: 80px; right: 20px; background: #25D366; color: white; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; text-decoration: none; box-shadow: 0 4px 15px rgba(37,211,102,0.4); z-index: 98; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: white; flex-direction: column; padding: 20px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+            .nav-links.active { display: flex; }
+            .mobile-toggle { display: block; }
+            .page-hero h1 { font-size: 34px; }
+            .why-grid { grid-template-columns: 1fr; }
+            .pricing h2, .cta-section h2 { font-size: 28px; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+            .sticky-cta p { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Urgency Banner -->
+<div class="urgency-banner">
+    🌞 Summer 2026 Programs Now Open — Limited Spots Available! Early Bird Discount: 10% Off When You Register by June 30th
+</div>
+
+<!-- Standardized Navigation -->
+<nav class="main-nav" aria-label="Main Navigation">
+    <div class="nav-container">
+        <a href="/" class="logo">The Study <span>Zone</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="/courses">Programs</a></li>
+            <li><a href="/about-us">About</a></li>
+            <li><a href="/home-tutoring">Home Tutoring</a></li>
+            <li><a href="/instant-tutoring">Instant Tutoring</a></li>
+            <li class="dropdown">
+                <a href="#">Resources ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="/articles">Articles & Blog</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a href="/jobs">Careers</a></li>
+                </ul>
+            </li>
+            <li><a href="/registration" class="nav-cta">Register</a></li>
+        </ul>
+        <button class="mobile-toggle" aria-label="Toggle menu" onclick="document.getElementById('navLinks').classList.toggle('active')">☰</button>
+    </div>
+</nav>
+
+<!-- Page Hero -->
+<section class="page-hero">
+    <div class="container">
+        <span class="badge">☀️ Summer 2026 • July & August</span>
+        <h1>Summer <span>Tutoring</span> Program</h1>
+        <p>Don't let summer break undo a year of hard work. Prevent the "summer slide," catch up on challenging subjects, or get a head start on next year's curriculum — all with Ontario-certified tutors.</p>
+    </div>
+</section>
+
+<!-- Why Summer Tutoring Section -->
+<section class="why-summer">
+    <div class="container">
+        <div class="why-grid">
+            <img src="https://images.pexels.com/photos/4894768/pexels-photo-4894768.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Student studying during summer break to prevent learning loss" class="why-img" loading="lazy" decoding="async" width="600" height="400">
+            <div class="why-text">
+                <h2>Why <span>Summer Tutoring</span> Matters</h2>
+                <p>Research shows that students can lose up to 2 months of math and reading skills over summer break. This "summer slide" means teachers spend the first 4-6 weeks of school re-teaching material instead of moving forward.</p>
+                <p>Summer tutoring prevents this learning loss, keeps your child's mind engaged, and can even give them a competitive edge when September arrives.</p>
+                <div class="stat-box">
+                    <strong>📊 The Summer Slide is Real</strong>
+                    <p>Students who don't engage in learning over summer can lose up to 27% of their academic gains from the previous year. Summer tutoring reverses this trend.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Program Options Section -->
+<section class="programs">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 36px; margin-bottom: 15px;">Choose Your Summer Program</h2>
+        <p style="text-align: center; color: var(--text-light); font-size: 17px; max-width: 700px; margin: 0 auto;">We offer flexible programs designed to meet your child's specific needs — whether they need to catch up, get ahead, or maintain their skills.</p>
+        
+        <div class="program-cards">
+            <div class="program-card">
+                <div class="program-card-header">
+                    <div class="icon">📚</div>
+                    <h3>Catch-Up Program</h3>
+                </div>
+                <div class="program-card-body">
+                    <p>For students who struggled during the school year. We identify knowledge gaps and rebuild foundations so they're ready for September.</p>
+                    <ul>
+                        <li>Diagnostic assessment to identify gaps</li>
+                        <li>Focused review of challenging topics</li>
+                        <li>Build confidence and fill knowledge gaps</li>
+                        <li>1-2 sessions per week recommended</li>
+                        <li>Perfect for Grades 1-10</li>
+                    </ul>
+                    <a href="/registration" class="btn btn-primary" style="width: 100%;">Book Assessment</a>
+                </div>
+            </div>
+            
+            <div class="program-card featured">
+                <div class="program-card-header">
+                    <div class="icon">🚀</div>
+                    <h3>Preview Program</h3>
+                </div>
+                <div class="program-card-body">
+                    <p>Get a head start on next year's curriculum. Students enter September with confidence and a solid foundation for advanced topics.</p>
+                    <ul>
+                        <li>Preview upcoming curriculum topics</li>
+                        <li>Build strong foundations early</li>
+                        <li>Reduce back-to-school anxiety</li>
+                        <li>2-3 sessions per week recommended</li>
+                        <li>Ideal for Grades 8-12 transitioning to harder courses</li>
+                    </ul>
+                    <a href="/registration" class="btn btn-primary" style="width: 100%; background: var(--navy); color: white;">Book Assessment</a>
+                </div>
+            </div>
+            
+            <div class="program-card">
+                <div class="program-card-header">
+                    <div class="icon">⚡</div>
+                    <h3>Intensive Program</h3>
+                </div>
+                <div class="program-card-body">
+                    <p>For students who need significant improvement or are preparing for important exams (IB, AP, university prep). Accelerated learning in a condensed timeframe.</p>
+                    <ul>
+                        <li>Daily sessions (4-5 days/week)</li>
+                        <li>Rapid skill development</li>
+                        <li>IB/AP exam preparation</li>
+                        <li>University course prep</li>
+                        <li>Maximum impact in minimum time</li>
+                    </ul>
+                    <a href="/registration" class="btn btn-primary" style="width: 100%;">Book Assessment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 36px; margin-bottom: 15px;">Benefits of Summer Tutoring</h2>
+        <p style="text-align: center; color: var(--text-light); font-size: 17px; max-width: 600px; margin: 0 auto;">Summer isn't just about rest — it's an opportunity to grow, catch up, and get ahead.</p>
+        
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">🧠</div>
+                <h3>Prevent Summer Slide</h3>
+                <p>Keep your child's mind active and retain the knowledge they worked hard to gain during the school year.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">📈</div>
+                <h3>Get Ahead</h3>
+                <p>Preview next year's curriculum and enter September with confidence and a head start on their peers.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🎯</div>
+                <h3>Fill Knowledge Gaps</h3>
+                <p>Address specific weaknesses and build strong foundations before moving on to more advanced topics.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">⏰</div>
+                <h3>Flexible Scheduling</h3>
+                <p>Work around vacations and summer activities. Choose 1-5 days per week based on your family's schedule.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🏆</div>
+                <h3>Build Confidence</h3>
+                <p>Return to school feeling prepared, capable, and ready to tackle new challenges without anxiety.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">📝</div>
+                <h3>Exam Preparation</h3>
+                <p>Intensive prep for IB, AP, SAT, ACT, and other standardized tests during the summer break.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="pricing">
+    <div class="container">
+        <h2>Transparent Summer Pricing</h2>
+        <p>Same great rates as our regular programs. No hidden fees. Package discounts available.</p>
+        
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Grades K-8</h3>
+                <div class="price">$45<span>/hour</span></div>
+                <p>All subjects including Math, Reading, Writing, Science, and French</p>
+                <a href="/registration" class="btn btn-primary" style="background: white; color: var(--navy);">Book Assessment</a>
+            </div>
+            <div class="pricing-card featured">
+                <h3>Grades 9-10</h3>
+                <div class="price">$55<span>/hour</span></div>
+                <p>Academic subjects: MTH1W, MPM2D, Science, English, and more</p>
+                <a href="/registration" class="btn btn-primary" style="background: var(--navy); color: white;">Book Assessment</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Grades 11-12, IB & AP</h3>
+                <div class="price">$65<span>/hour</span></div>
+                <p>Advanced subjects: MCV4U, MHF4U, IB, AP, and university prep</p>
+                <a href="/registration" class="btn btn-primary" style="background: white; color: var(--navy);">Book Assessment</a>
+            </div>
+        </div>
+        
+        <p style="text-align: center; margin-top: 40px; font-size: 15px; opacity: 0.9;">
+            💰 <strong>Package Discounts:</strong> 10% off 10-session packages | 15% off 20-session packages<br>
+            🎁 <strong>Early Bird Special:</strong> Register by June 30th and get an additional 10% off<br>
+            🎓 <strong>Your first assessment is always FREE</strong>
+        </p>
+    </div>
+</section>
+
+<!-- Scheduling Section -->
+<section class="scheduling">
+    <div class="container">
+        <h2 style="text-align: center; font-size: 36px; margin-bottom: 15px;">Flexible Scheduling Options</h2>
+        <p style="text-align: center; color: var(--text-light); font-size: 17px; max-width: 600px; margin: 0 auto;">We work around your summer plans. Choose the frequency that fits your family's schedule.</p>
+        
+        <div class="schedule-options">
+            <div class="schedule-card">
+                <h3>Light Maintenance</h3>
+                <p><strong>1 session per week</strong><br>Keep skills sharp and prevent learning loss. Perfect for students who are doing well but want to stay engaged.</p>
+            </div>
+            <div class="schedule-card">
+                <h3>Standard Program</h3>
+                <p><strong>2-3 sessions per week</strong><br>Balanced approach for catch-up or preview programs. Ideal for most students.</p>
+            </div>
+            <div class="schedule-card">
+                <h3>Intensive Program</h3>
+                <p><strong>4-5 sessions per week</strong><br>Rapid progress for students who need significant improvement or exam preparation.</p>
+            </div>
+            <div class="schedule-card">
+                <h3>Custom Schedule</h3>
+                <p><strong>Flexible timing</strong><br>Work around vacations and summer activities. We'll create a schedule that fits your family.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container">
+        <h2>Ready to Make This Summer Count?</h2>
+        <p>Spots are limited for Summer 2026. Book your free assessment today and secure your child's place in our summer program. Early bird discount available until June 30th.</p>
+        <a href="/registration" class="btn btn-primary">Book Free Assessment</a>
+        <p style="margin-top: 20px; font-size: 15px;">or call <a href="tel:+16478494344" style="color: var(--navy); text-decoration: none; font-weight: 700;">(647) 849-4344</a></p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>The Study Zone</h4>
+                <p style="font-size: 14px; opacity: 0.8; margin-bottom: 15px;">Premium academic coaching and tutoring services. Building the next generation of thinkers, leaders, and innovators.</p>
+                <p style="font-size: 14px; opacity: 0.8;">📍 Serving Brampton, Caledon, Bolton & GTA</p>
+                <p style="font-size: 14px; opacity: 0.8;">📞 <a href="tel:+16478494344" style="color: var(--gold);">(647) 849-4344</a></p>
+            </div>
+            <div class="footer-col">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="/courses">K-12 Tutoring</a></li>
+                    <li><a href="/courses#ib">IB & AP Prep</a></li>
+                    <li><a href="/courses#coding">STEM & Coding</a></li>
+                    <li><a href="/summer-program">Summer Program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/home-tutoring">Home Tutoring</a></li>
+                    <li><a href="/articles">Articles</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="/registration">Register</a></li>
+                    <li><a href="/instant-tutoring">Instant Tutoring</a></li>
+                    <li><a href="/jobs">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 The Study Zone (TSZ). All rights reserved. Serving Brampton, Caledon, Bolton & GTA.
+        </div>
+    </div>
+</footer>
+
+<!-- Sticky CTA Bar -->
+<div class="sticky-cta">
+    <p>☀️ Summer 2026 — Book Your Free Assessment</p>
+    <a href="/registration" class="btn btn-primary">Register Now</a>
+</div>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/16478494344" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+
+</body>
+</html>
