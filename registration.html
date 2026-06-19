@@ -879,38 +879,6 @@
         }
 
         // --------------------------------------------
-        // SOCIAL PROOF POPUPS (rotating notifications)
-        // --------------------------------------------
-        const socialProofs = [
-            { text: "Sarah from Brampton just booked a free assessment", time: "2 min ago" },
-            { text: "David from Caledon enrolled in Grade 12 Calculus tutoring", time: "5 min ago" },
-            { text: "Priya from Bolton registered for IB Math prep", time: "8 min ago" },
-            { text: "James from Mississauga booked summer tutoring", time: "12 min ago" },
-            { text: "A parent from Bolton just rated us 5 stars", time: "15 min ago" },
-            { text: "New tutor joined: Ms. Chen (Physics, MCV4U)", time: "18 min ago" },
-            { text: "Emma from Brampton improved from 72% to 91%", time: "22 min ago" },
-        ];
-
-        let proofIndex = 0;
-        const proofPopup = document.querySelector('.social-proof-popup');
-        if (proofPopup) {
-            function showProof() {
-                const data = socialProofs[proofIndex];
-                proofPopup.querySelector('p').innerHTML = `<strong>${data.text}</strong>`;
-                proofPopup.querySelector('.time').textContent = data.time;
-                proofPopup.classList.add('show');
-                setTimeout(() => proofPopup.classList.remove('show'), 5000);
-                proofIndex = (proofIndex + 1) % socialProofs.length;
-            }
-            // Start after 5 seconds, then every 12 seconds
-            setTimeout(() => { showProof(); setInterval(showProof, 12000); }, 5000);
-
-            proofPopup.querySelector('.close').addEventListener('click', () => {
-                proofPopup.classList.remove('show');
-            });
-        }
-
-        // --------------------------------------------
         // EXIT INTENT MODAL (capture leaving visitors)
         // --------------------------------------------
         const exitModal = document.querySelector('.exit-modal-overlay');
