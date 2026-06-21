@@ -510,44 +510,7 @@
         .chat-btn:hover { transform: scale(1.1); }
         .chat-badge { position: absolute; top: -5px; right: -5px; background: #dc2626; color: #fff; font-size: 0.7rem; padding: 2px 6px; border-radius: 10px; font-weight: 700; }
 
-        /* ============================================ */
-        /* 12. SOCIAL PROOF & EXIT MODALS               */
-        /* ============================================ */
-        .social-proof-popup {
-            position: fixed; bottom: 100px; left: 20px;
-            background: var(--white); padding: 15px 20px;
-            border-radius: 10px; box-shadow: 0 5px 25px rgba(0,0,0,0.15);
-            z-index: 997; max-width: 320px;
-            transform: translateX(-400px); transition: transform 0.5s ease;
-            border-left: 4px solid var(--secondary);
-        }
-        .social-proof-popup.show { transform: translateX(0); }
-        .social-proof-popup p { margin: 0; font-size: 0.85rem; color: var(--text); }
-        .social-proof-popup .time { color: var(--text-light); font-size: 0.75rem; margin-top: 4px; }
-        .social-proof-popup .close { position: absolute; top: 8px; right: 10px; cursor: pointer; color: var(--text-light); font-size: 1rem; }
-
-        .exit-modal-overlay {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.7); z-index: 3000;
-            display: none; align-items: center; justify-content: center;
-            opacity: 0; transition: opacity 0.3s ease;
-        }
-        .exit-modal-overlay.active { display: flex; opacity: 1; }
-        .exit-modal {
-            background: var(--white); padding: 50px; border-radius: 16px;
-            max-width: 500px; width: 90%; text-align: center;
-            position: relative; transform: scale(0.9); transition: transform 0.3s ease;
-        }
-        .exit-modal-overlay.active .exit-modal { transform: scale(1); }
-        .exit-modal h2 { color: var(--primary); font-size: 1.8rem; margin-bottom: 15px; }
-        .exit-modal p { color: var(--text-light); margin-bottom: 25px; }
-        .exit-modal .discount {
-            background: linear-gradient(135deg, var(--secondary), #d4af37);
-            color: var(--primary); padding: 15px 25px; border-radius: 8px;
-            font-size: 1.3rem; font-weight: 700; display: inline-block; margin-bottom: 20px;
-        }
-        .exit-modal-close { position: absolute; top: 15px; right: 20px; font-size: 1.5rem; cursor: pointer; color: var(--text-light); background: none; border: none; }
-
+       
         /* ============================================ */
         /* 13. ACCESSIBILITY & RESPONSIVE               */
         /* ============================================ */
