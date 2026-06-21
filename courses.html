@@ -511,21 +511,8 @@
         .chat-badge { position: absolute; top: -5px; right: -5px; background: #dc2626; color: #fff; font-size: 0.7rem; padding: 2px 6px; border-radius: 10px; font-weight: 700; }
 
         /* ============================================ */
-        /* 12. SOCIAL PROOF & EXIT MODALS               */
+        /* 12. EXIT-INTENT MODAL (SOCIAL PROOF REMOVED) */
         /* ============================================ */
-        .social-proof-popup {
-            position: fixed; bottom: 100px; left: 20px;
-            background: var(--white); padding: 15px 20px;
-            border-radius: 10px; box-shadow: 0 5px 25px rgba(0,0,0,0.15);
-            z-index: 997; max-width: 320px;
-            transform: translateX(-400px); transition: transform 0.5s ease;
-            border-left: 4px solid var(--secondary);
-        }
-        .social-proof-popup.show { transform: translateX(0); }
-        .social-proof-popup p { margin: 0; font-size: 0.85rem; color: var(--text); }
-        .social-proof-popup .time { color: var(--text-light); font-size: 0.75rem; margin-top: 4px; }
-        .social-proof-popup .close { position: absolute; top: 8px; right: 10px; cursor: pointer; color: var(--text-light); font-size: 1rem; }
-
         .exit-modal-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: rgba(0,0,0,0.7); z-index: 3000;
@@ -1519,12 +1506,9 @@
         <button class="chat-btn" aria-label="Chat on WhatsApp">💬<span class="chat-badge">1</span></button>
     </div>
 
-    <div class="social-proof-popup">
-        <span class="close" aria-label="Close notification">×</span>
-        <p><strong>A parent from Brampton just booked a free assessment</strong></p>
-        <p class="time">2 min ago</p>
-    </div>
-
+    <!-- ============================================ -->
+    <!-- EXIT-INTENT MODAL                            -->
+    <!-- ============================================ -->
     <div class="exit-modal-overlay">
         <div class="exit-modal">
             <button class="exit-modal-close" aria-label="Close offer">&times;</button>
@@ -1646,30 +1630,6 @@
         document.querySelector('.chat-btn').addEventListener('click', () => {
             window.open('https://wa.me/16478494344?text=Hi%20Study%20Zone%2C%20I%20have%20a%20question%20about%20tutoring', '_blank');
         });
-
-        // ----- SOCIAL PROOF POPUP -----
-        const proofPopup = document.querySelector('.social-proof-popup');
-        if (proofPopup) {
-            const socialProofs = [
-                { text: "A parent from Brampton just booked a free assessment", time: "2 min ago" },
-                { text: "A student from Caledon enrolled in MHF4U tutoring", time: "5 min ago" },
-                { text: "A Bolton parent asked about IB Math", time: "8 min ago" },
-                { text: "A family from Mississauga signed up for test prep", time: "12 min ago" },
-            ];
-            let proofIndex = 0;
-            function showProof() {
-                const data = socialProofs[proofIndex % socialProofs.length];
-                proofPopup.querySelector('p').innerHTML = `<strong>${data.text}</strong>`;
-                proofPopup.querySelector('.time').textContent = data.time;
-                proofPopup.classList.add('show');
-                setTimeout(() => proofPopup.classList.remove('show'), 5000);
-                proofIndex++;
-            }
-            setTimeout(() => { showProof(); setInterval(showProof, 12000); }, 5000);
-            proofPopup.querySelector('.close').addEventListener('click', () => {
-                proofPopup.classList.remove('show');
-            });
-        }
 
         // ----- EXIT-INTENT MODAL -----
         const exitModal = document.querySelector('.exit-modal-overlay');
