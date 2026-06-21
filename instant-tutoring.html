@@ -7,20 +7,20 @@
     <!-- ============================================ -->
     <!-- SEO META TAGS                                -->
     <!-- ============================================ -->
-    <title>Register | The Study Zone - Book Your Free Assessment in GTA</title>
-    <meta name="description" content="Register for tutoring at The Study Zone. Book your free assessment. Serving Brampton, Caledon, Bolton & GTA. In-person and online tutoring available. L6R, L6P & GTA.">
-    <meta name="keywords" content="register tutoring L6R, book tutoring L6P, tutoring registration GTA, free assessment tutoring, Brampton tutoring registration, Caledon tutor booking">
-    <link rel="canonical" href="https://www.thestudyzone.ca/registration">
+    <title>Instant Tutoring | On-Demand Help in Brampton & Caledon | The Study Zone GTA</title>
+    <meta name="description" content="Get instant homework help & on-demand tutoring in Brampton, Caledon & GTA. Connect with Ontario-certified tutors in minutes. Available 24/7. Start now. Serving L6R, L6P & GTA.">
+    <meta name="keywords" content="instant tutoring L6R, on-demand tutor L6P, homework help Brampton, 24/7 tutoring GTA, emergency tutor Caledon, study help online, instant homework help">
+    <link rel="canonical" href="https://www.thestudyzone.ca/instant-tutoring">
 
     <!-- FAVICON -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
 
     <!-- OPEN GRAPH -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.thestudyzone.ca/registration">
-    <meta property="og:title" content="Register | The Study Zone - Book Your Free Assessment">
-    <meta property="og:description" content="Register for tutoring at The Study Zone. Free assessment available for GTA families.">
-    <meta property="og:image" content="https://via.placeholder.com/1200x630/0f1f3d/c5a059?text=TSZ+Registration">
+    <meta property="og:url" content="https://www.thestudyzone.ca/instant-tutoring">
+    <meta property="og:title" content="Instant Tutoring | On-Demand Help in Brampton & Caledon | The Study Zone">
+    <meta property="og:description" content="Get instant homework help & on-demand tutoring. Connect with Ontario-certified tutors in minutes. Available 24/7.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/0f1f3d/c5a059?text=TSZ+Instant+Tutoring">
 
     <!-- PRECONNECT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -69,13 +69,13 @@
             {"@type": "City", "name": "Bolton"},
             {"@type": "Place", "name": "Greater Toronto Area"}
           ],
-          "serviceType": ["Academic Tutoring", "IB Preparation", "STEM Education", "Test Preparation", "Online Tutoring"]
+          "serviceType": ["Instant Tutoring", "Homework Help", "On-Demand Tutoring", "24/7 Tutoring"]
         },
         {
           "@type": "BreadcrumbList",
           "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.thestudyzone.ca/"},
-            {"@type": "ListItem", "position": 2, "name": "Registration", "item": "https://www.thestudyzone.ca/registration"}
+            {"@type": "ListItem", "position": 2, "name": "Instant Tutoring", "item": "https://www.thestudyzone.ca/instant-tutoring"}
           ]
         },
         {
@@ -83,18 +83,18 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Do you offer tutoring in L6R and L6P areas?",
+              "name": "What is instant tutoring?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, we serve all Brampton, Caledon, and GTA neighborhoods including L6R, L6P, and surrounding postal codes with in-home and online tutoring."
+                "text": "Instant tutoring connects you with an Ontario-certified tutor in minutes for immediate help with homework, test prep, or any academic question."
               }
             },
             {
               "@type": "Question",
-              "name": "How long does it take to start tutoring?",
+              "name": "Is instant tutoring available in L6R and L6P areas?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Most families begin within 3-5 days of registration. Urgent requests can often be accommodated sooner."
+                "text": "Yes, our instant tutoring platform is available online 24/7 for students in Brampton, Caledon, and all GTA neighborhoods including L6R and L6P."
               }
             }
           ]
@@ -167,6 +167,15 @@
         }
         .btn-outline:hover {
             background: var(--white);
+            color: var(--primary);
+        }
+        .btn-accent {
+            background: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+        .btn-accent:hover {
+            background: transparent;
             color: var(--primary);
         }
         .gold-line { width: 60px; height: 3px; background: var(--secondary); margin: 20px 0; }
@@ -256,7 +265,7 @@
         /* 5. PAGE HERO                                 */
         /* ============================================ */
         .page-hero {
-            min-height: 40vh;
+            min-height: 50vh;
             display: flex; align-items: center;
             background: linear-gradient(135deg, var(--primary) 0%, #1a365d 100%);
             color: var(--white);
@@ -271,142 +280,268 @@
             right: 0;
             width: 50%;
             height: 100%;
-            background: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80') no-repeat center center/cover;
+            background: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80') no-repeat center center/cover;
             opacity: 0.30;
             clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
             pointer-events: none;
             z-index: 1;
         }
         .page-hero .container { position: relative; z-index: 2; }
+        .page-hero .pill {
+            display: inline-block;
+            background: rgba(197, 160, 89, 0.15);
+            border: 1px solid rgba(197, 160, 89, 0.3);
+            color: var(--secondary);
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+        .page-hero .pill-dot {
+            display: inline-block;
+            width: 6px; height: 6px;
+            background: var(--secondary);
+            border-radius: 50%;
+            margin-right: 8px;
+        }
         .page-hero h1 { font-size: 3.5rem; margin-bottom: 15px; }
+        .page-hero h1 em { color: var(--secondary); font-style: italic; }
         .page-hero p { font-size: 1.2rem; color: rgba(255,255,255,0.85); max-width: 600px; }
+        .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px; }
 
         /* ============================================ */
-        /* 6. REGISTRATION SECTION (JOTFORM)            */
+        /* 6. HOW IT WORKS / FEATURES                   */
         /* ============================================ */
-        .registration-section {
-            padding: 80px 0;
+        .content-section { padding: 80px 0; }
+        .content-section.alt { background: var(--accent); }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .two-col.reverse { direction: rtl; }
+        .two-col.reverse > * { direction: ltr; }
+
+        .section-img {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .section-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
             background: var(--accent);
         }
-        .registration-wrapper {
-            max-width: 900px;
-            margin: 0 auto;
-            background: var(--white);
-            border-radius: 16px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
-            overflow: hidden;
+        .section-img:hover img { transform: scale(1.03); }
+
+        .section-text h2 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
         }
-        .registration-header {
-            background: var(--primary);
-            color: var(--white);
-            padding: 40px;
-            text-align: center;
-        }
-        .registration-header h2 {
-            color: var(--white);
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-        .registration-header p {
-            color: rgba(255,255,255,0.85);
+        .section-text h2 em { color: var(--secondary); font-style: italic; }
+        .section-text p {
+            color: var(--text-light);
+            margin-bottom: 20px;
             font-size: 1.05rem;
         }
-        .registration-header .badge {
-            display: inline-block;
+        .section-text .lead {
+            font-size: 1.2rem;
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        .step-list {
+            margin: 24px 0 32px;
+            list-style: none;
+        }
+        .step-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 16px;
+            padding: 12px 16px;
+            background: var(--accent);
+            border-radius: 8px;
+        }
+        .step-num {
             background: var(--secondary);
             color: var(--primary);
-            padding: 6px 16px;
-            border-radius: 50px;
-            font-size: 0.85rem;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             font-weight: 700;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .jotform-container {
-            padding: 0;
-            min-height: 600px;
-        }
-        .jotform-container iframe {
-            width: 100%;
-            min-height: 800px;
-            border: none;
-        }
-
-        /* ============================================ */
-        /* 7. TRUST BADGES                              */
-        /* ============================================ */
-        .trust-section {
-            padding: 60px 0;
-            text-align: center;
-            background: var(--white);
-        }
-        .trust-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-            max-width: 800px;
-            margin: 40px auto 0;
-        }
-        .trust-item {
-            padding: 25px;
-        }
-        .trust-item .icon {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
-        }
-        .trust-item h4 {
-            font-family: 'Inter', sans-serif;
-            font-weight: 600;
-            color: var(--primary);
-            margin-bottom: 8px;
             font-size: 1.1rem;
+            flex-shrink: 0;
         }
-        .trust-item p {
-            color: var(--text-light);
-            font-size: 0.95rem;
-        }
+        .step-text strong { color: var(--primary); display: block; }
+        .step-text p { color: var(--text-light); font-size: 0.95rem; margin: 0; }
 
         /* ============================================ */
-        /* 8. FAQ STRIP                                 */
+        /* 7. FEATURE GRID                              */
         /* ============================================ */
-        .faq-strip {
-            padding: 60px 0;
-            background: var(--accent);
-        }
-        .faq-strip h2 {
-            text-align: center;
-            font-size: 2rem;
-            color: var(--primary);
-            margin-bottom: 40px;
-        }
-        .faq-grid {
+        .feature-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .feature-card {
+            background: var(--white);
+            border: 1px solid var(--accent);
+            border-radius: 12px;
+            padding: 32px;
+            transition: var(--transition);
+        }
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 36px rgba(15,31,61,0.08);
+            border-color: var(--secondary);
+        }
+        .feature-icon { font-size: 2.5rem; margin-bottom: 16px; }
+        .feature-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        .feature-desc { color: var(--text-light); font-size: 0.9rem; line-height: 1.65; }
+
+        /* ============================================ */
+        /* 8. PLATFORM CTA                              */
+        /* ============================================ */
+        .platform-cta {
+            background: var(--primary);
+            padding: 80px 0;
+            text-align: center;
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+        .platform-cta::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse at 70% 50%, rgba(197, 160, 89, 0.08) 0%, transparent 70%);
+        }
+        .platform-cta .container { position: relative; z-index: 2; }
+        .platform-cta h2 {
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            color: var(--white);
+            margin-bottom: 16px;
+        }
+        .platform-cta h2 em { color: var(--secondary); font-style: italic; }
+        .platform-cta p {
+            color: rgba(255,255,255,0.85);
+            max-width: 600px;
+            margin: 0 auto 16px;
+            font-size: 1.1rem;
+        }
+        .platform-url {
+            display: inline-block;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(197, 160, 89, 0.3);
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            color: var(--secondary);
+            margin-bottom: 32px;
+            font-weight: 500;
+        }
+        .btn-platform {
+            background: var(--secondary);
+            color: var(--primary);
+            border-color: var(--secondary);
+            padding: 18px 48px;
+            font-size: 1.05rem;
+            border-radius: 50px;
+        }
+        .btn-platform:hover {
+            background: transparent;
+            color: var(--secondary);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(197, 160, 89, 0.3);
+        }
+
+        /* ============================================ */
+        /* 9. PRICING TABLE                             */
+        /* ============================================ */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
             max-width: 900px;
             margin: 0 auto;
         }
-        .faq-item {
+        .pricing-card {
             background: var(--white);
-            padding: 25px 30px;
-            border-radius: 10px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            border-radius: 12px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: var(--transition);
+            border: 2px solid var(--accent);
         }
-        .faq-item h4 {
-            font-family: 'Inter', sans-serif;
+        .pricing-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--secondary);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        .pricing-card.featured {
+            background: var(--primary);
+            color: var(--white);
+            border-color: var(--secondary);
+        }
+        .pricing-card.featured .pricing-price { color: var(--secondary); }
+        .pricing-card.featured .pricing-note { color: rgba(255,255,255,0.8); }
+        .pricing-tier {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
             font-weight: 600;
-            color: var(--primary);
-            margin-bottom: 10px;
-            font-size: 1.05rem;
+            color: var(--secondary);
+            margin-bottom: 15px;
         }
-        .faq-item p {
-            color: var(--text-light);
-            font-size: 0.95rem;
+        .pricing-price {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary);
+            font-family: 'Inter', sans-serif;
+        }
+        .pricing-price span { font-size: 1rem; font-weight: 400; color: var(--text-light); }
+        .pricing-note { color: var(--text-light); font-size: 0.95rem; margin: 15px 0 25px; }
+        .pricing-features {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        .pricing-features li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            font-size: 0.9rem;
+        }
+        .pricing-features li::before {
+            content: "✓";
+            color: var(--success);
+            margin-right: 10px;
+            font-weight: 700;
+        }
+        .pricing-card.featured .pricing-features li {
+            border-bottom-color: rgba(255,255,255,0.1);
         }
 
         /* ============================================ */
-        /* 9. CROSS-LINKING (RELATED SERVICES)          */
+        /* 10. CROSS-LINKING (RELATED SERVICES)         */
         /* ============================================ */
         .related-services {
             padding: 60px 0;
@@ -442,20 +577,98 @@
         }
 
         /* ============================================ */
-        /* 10. CTA SECTION                              */
+        /* 11. CONTACT / FORM                           */
         /* ============================================ */
-        .cta-section {
-            padding: 80px 0;
-            text-align: center;
-            background: var(--primary);
-            color: var(--white);
+        .contact-layout {
+            display: grid;
+            grid-template-columns: 5fr 7fr;
+            gap: 80px;
+            align-items: start;
         }
-        .cta-section h2 { color: var(--white); font-size: 2.2rem; margin-bottom: 15px; }
-        .cta-section p { color: rgba(255,255,255,0.85); max-width: 600px; margin: 0 auto 30px; font-size: 1.1rem; }
-        .cta-section .btn-primary { font-size: 1rem; padding: 16px 40px; }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+        .ci {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+        .ci-icon {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .ci-icon svg { width: 20px; height: 20px; fill: var(--secondary); }
+        .ci-lbl {
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--secondary);
+            margin-bottom: 3px;
+        }
+        .ci-val { font-size: 0.95rem; color: var(--primary); font-weight: 500; }
+
+        .cform {
+            background: var(--white);
+            border: 1.5px solid var(--accent);
+            border-radius: 16px;
+            padding: 44px;
+        }
+        .cform h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 28px;
+        }
+        .fg { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+        .fg label { font-size: 0.78rem; font-weight: 600; color: var(--text-light); letter-spacing: 0.4px; }
+        .fg input, .fg select, .fg textarea {
+            padding: 12px 16px;
+            border: 1.5px solid var(--accent);
+            border-radius: 8px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text);
+            background: var(--white);
+            transition: border-color .2s;
+            outline: none;
+        }
+        .fg input:focus, .fg select:focus, .fg textarea:focus {
+            border-color: var(--secondary);
+            box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.1);
+        }
+        .fg textarea { height: 100px; resize: vertical; }
+        .frow { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+        .fsub {
+            width: 100%;
+            padding: 15px;
+            background: var(--secondary);
+            color: var(--primary);
+            border: none;
+            border-radius: 50px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .fsub:hover {
+            background: #d4af37;
+            transform: translateY(-2px);
+        }
+        .fsub.sent { background: var(--success); color: white; }
 
         /* ============================================ */
-        /* 11. FOOTER (STANDARDIZED)                    */
+        /* 12. FOOTER (STANDARDIZED)                    */
         /* ============================================ */
         footer { background: #080f1e; color: var(--footer-text); padding: 60px 0 20px; }
         .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
@@ -469,7 +682,7 @@
         .copyright { text-align: center; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.9rem; color: var(--footer-text); }
 
         /* ============================================ */
-        /* 12. FIXED ELEMENTS                           */
+        /* 13. FIXED ELEMENTS                           */
         /* ============================================ */
         .sticky-cta {
             position: fixed; bottom: 0; left: 0; width: 100%;
@@ -512,7 +725,7 @@
         /* NO SOCIAL PROOF POPUP - REMOVED */
 
         /* ============================================ */
-        /* 13. EXIT-INTENT MODAL                        */
+        /* 14. EXIT-INTENT MODAL                        */
         /* ============================================ */
         .exit-modal-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
@@ -537,7 +750,7 @@
         .exit-modal-close { position: absolute; top: 15px; right: 20px; font-size: 1.5rem; cursor: pointer; color: var(--text-light); background: none; border: none; }
 
         /* ============================================ */
-        /* 14. ACCESSIBILITY & RESPONSIVE               */
+        /* 15. ACCESSIBILITY & RESPONSIVE               */
         /* ============================================ */
         .skip-link {
             position: absolute; top: -40px; left: 0;
@@ -556,29 +769,34 @@
         }
 
         @media (max-width: 992px) {
+            .two-col { grid-template-columns: 1fr; }
+            .two-col.reverse { direction: ltr; }
             .footer-grid { grid-template-columns: 1fr 1fr; }
             .page-hero h1 { font-size: 2.5rem; }
             .page-hero::after { width: 100%; clip-path: none; opacity: 0.15; }
+            .contact-layout { grid-template-columns: 1fr; gap: 48px; }
         }
         @media (max-width: 768px) {
             .nav-links { display: none; }
             .mobile-menu-btn { display: block; color: var(--primary); }
             .page-hero h1 { font-size: 2rem; }
             .page-hero { padding-top: 130px; }
-            .registration-header { padding: 30px 20px; }
-            .registration-header h2 { font-size: 1.6rem; }
-            .jotform-container iframe { min-height: 1000px; }
+            .section-text h2 { font-size: 1.8rem; }
             .footer-grid { grid-template-columns: 1fr; }
             .sticky-cta { flex-direction: column; gap: 10px; padding: 15px; }
-            .cta-section h2 { font-size: 1.8rem; }
+            .cform { padding: 28px 22px; }
+            .frow { grid-template-columns: 1fr; }
+            .feature-grid { grid-template-columns: 1fr; }
+            .pricing-grid { grid-template-columns: 1fr; }
+            .hero-btns { flex-direction: column; align-items: stretch; }
+            .btn { text-align: center; }
+            .btn-platform { padding: 14px 28px; font-size: 0.9rem; }
+            .platform-url { font-size: 0.85rem; padding: 10px 16px; }
             .related-grid { grid-template-columns: 1fr 1fr; }
-            .trust-grid { grid-template-columns: 1fr 1fr; }
-            .faq-grid { grid-template-columns: 1fr; }
         }
         @media (max-width: 480px) {
             .page-hero h1 { font-size: 1.8rem; }
             .btn { padding: 10px 20px; font-size: 0.8rem; }
-            .trust-grid { grid-template-columns: 1fr; }
             .related-grid { grid-template-columns: 1fr; }
         }
     </style>
@@ -590,7 +808,7 @@
     <!-- PROMO BANNER                                 -->
     <!-- ============================================ -->
     <div class="promo-banner">
-        🎓 Limited Time: FREE Academic Assessment for Brampton & Caledon Families! <a href="/registration">Book Now</a>
+        ⚡ Need Help Now? Connect with a Tutor in Minutes — Try Our Instant Tutoring Platform! <a href="https://studyzone-platform-tofl.vercel.app" target="_blank">Start Now →</a>
     </div>
 
     <!-- ============================================ -->
@@ -628,7 +846,7 @@
     <!-- ============================================ -->
     <div class="breadcrumbs">
         <div class="container">
-            <a href="/">Home</a> <span>›</span> <span>Registration</span>
+            <a href="/">Home</a> <span>›</span> <a href="/courses">Programs</a> <span>›</span> Instant Tutoring
         </div>
     </div>
 
@@ -637,8 +855,13 @@
     <!-- ============================================ -->
     <section class="page-hero">
         <div class="container">
-            <h1>Start Your Journey</h1>
-            <p>Book your free assessment in minutes. No commitment, no pressure — just a conversation about how we can help your child succeed.</p>
+            <div class="pill"><span class="pill-dot"></span>24/7 · On-Demand · Minutes Away</div>
+            <h1>Instant Tutoring — <em>Help in Minutes</em></h1>
+            <p>Stuck on a problem? Need last-minute test prep? Connect with an Ontario-certified tutor right now. No booking. No waiting. Just instant help.</p>
+            <div class="hero-btns">
+                <a href="https://studyzone-platform-tofl.vercel.app" target="_blank" class="btn btn-primary" style="padding:16px 40px;font-size:1rem;">Start Instant Tutoring Now ⚡</a>
+                <a href="#pricing" class="btn btn-outline">View Pricing</a>
+            </div>
         </div>
     </section>
 
@@ -648,85 +871,154 @@
     <main id="main-content">
 
     <!-- ============================================ -->
-    <!-- REGISTRATION FORM - JOTFORM EMBED            -->
+    <!-- HOW IT WORKS                                 -->
     <!-- ============================================ -->
-    <section class="registration-section">
+    <section class="content-section alt">
         <div class="container">
-            <div class="registration-wrapper reveal">
-                <div class="registration-header">
-                    <span class="badge">Free Assessment</span>
-                    <h2>Tutoring Registration</h2>
-                    <p>Fill out the form below and our team will contact you within 24 hours.</p>
+            <div class="two-col reverse">
+                <div class="section-text reveal-l">
+                    <span class="lbl" style="display:block;font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--secondary);margin-bottom:14px;">How It Works</span>
+                    <h2>Get Help <em>Right When You Need It</em></h2>
+                    <p class="lead">Our instant tutoring platform connects you with a qualified tutor in less than 5 minutes. No scheduling. No hassle.</p>
+                    <ul class="step-list">
+                        <li>
+                            <span class="step-num">1</span>
+                            <div class="step-text">
+                                <strong>Log In to the Platform</strong>
+                                <p>Access the instant tutoring dashboard — no software to install.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-num">2</span>
+                            <div class="step-text">
+                                <strong>Select Your Subject</strong>
+                                <p>Choose from math, science, English, French, and more.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="step-num">3</span>
+                            <div class="step-text">
+                                <strong>Connect Instantly</strong>
+                                <p>Get paired with an Ontario-certified tutor in minutes and start learning.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="https://studyzone-platform-tofl.vercel.app" target="_blank" class="btn btn-primary" style="display:inline-block;">Try It Now →</a>
                 </div>
-                <div class="jotform-container">
-                    <!-- ============================================ -->
-                    <!-- JOTFORM EMBED CODE - DO NOT MODIFY           -->
-                    <!-- Replace src URL if JotForm provides new one  -->
-                    <!-- ============================================ -->
-                    <script type="text/javascript" src="https://form.jotform.com/jsform/202315089397258"></script>
+                <div class="section-img reveal-r">
+                    <img src="https://picsum.photos/seed/instant1/800/500" alt="Student using instant tutoring platform" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ============================================ -->
-    <!-- TRUST BADGES                                 -->
+    <!-- WHY INSTANT (FEATURES)                       -->
     <!-- ============================================ -->
-    <section class="trust-section">
+    <section class="content-section">
         <div class="container">
-            <h2 style="font-size: 2rem; color: var(--primary); margin-bottom: 10px;">Why Families Choose Us</h2>
-            <div class="gold-line center"></div>
-            <div class="trust-grid">
-                <div class="trust-item reveal">
-                    <div class="icon">🎯</div>
-                    <h4>Free Assessment</h4>
-                    <p>No cost, no obligation. We evaluate your child's needs before recommending a program.</p>
+            <div class="section-header" style="text-align:center;margin-bottom:50px;">
+                <span class="lbl" style="display:block;font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--secondary);margin-bottom:14px;">Why Instant Tutoring</span>
+                <h2>Help When You <em style="color:var(--secondary);font-style:italic;">Need It Most</em></h2>
+                <div class="gold-line center"></div>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">⚡</div>
+                    <div class="feature-title">Connect in Minutes</div>
+                    <div class="feature-desc">No more waiting days for an appointment. Get help instantly, 24/7, whenever you need it.</div>
                 </div>
-                <div class="trust-item reveal">
-                    <div class="icon">👨‍🏫</div>
-                    <h4>Ontario-Certified Tutors</h4>
-                    <p>Every tutor is vetted, trained, and experienced with the Ontario curriculum.</p>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">👨‍🏫</div>
+                    <div class="feature-title">Certified Tutors</div>
+                    <div class="feature-desc">All tutors are Ontario-certified teachers with subject expertise in the Ontario curriculum.</div>
                 </div>
-                <div class="trust-item reveal">
-                    <div class="icon">📍</div>
-                    <h4>In-Person or Online</h4>
-                    <p>Choose home tutoring in the GTA or virtual sessions from anywhere.</p>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">📱</div>
+                    <div class="feature-title">Any Device, Anywhere</div>
+                    <div class="feature-desc">Access the platform from your computer, tablet, or phone. Learn from anywhere in the GTA.</div>
                 </div>
-                <div class="trust-item reveal">
-                    <div class="icon">📊</div>
-                    <h4>Progress Tracking</h4>
-                    <p>Regular updates so you always know how your child is improving.</p>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🧠</div>
+                    <div class="feature-title">Concept-First Approach</div>
+                    <div class="feature-desc">Our tutors focus on understanding, not memorization — just like all TSZ sessions.</div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ============================================ -->
-    <!-- FAQ STRIP                                    -->
+    <!-- PLATFORM CTA                                 -->
     <!-- ============================================ -->
-    <section class="faq-strip">
+    <section class="platform-cta">
         <div class="container">
-            <h2>Quick Questions</h2>
-            <div class="faq-grid">
-                <div class="faq-item reveal">
-                    <h4>How soon can we start?</h4>
-                    <p>Most families begin within 3-5 days of registration. Urgent requests can often be accommodated sooner.</p>
+            <div class="reveal" style="position:relative;z-index:2;">
+                <h2>Ready for <em>Instant Help</em>?</h2>
+                <p>Access The Study Zone Instant Tutoring Platform and connect with a tutor right now.</p>
+                <div class="platform-url">
+                    🔗 studyzone-platform-tofl.vercel.app
                 </div>
-                <div class="faq-item reveal">
-                    <h4>What subjects do you cover?</h4>
-                    <p>Math, Science, English, French, IB, AP, EQAO prep, and more. We match tutors to your exact needs.</p>
+                <div>
+                    <a href="https://studyzone-platform-tofl.vercel.app" target="_blank" class="btn btn-platform">Launch Platform ⚡</a>
                 </div>
-                <div class="faq-item reveal">
-                    <h4>Is there a contract?</h4>
-                    <p>No long-term contracts. We offer flexible packages that fit your schedule and budget.</p>
+                <p style="margin-top:20px;font-size:0.85rem;opacity:0.7;">No sign-up required to browse · Secure · Ontario-Certified Tutors</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PRICING SECTION                              -->
+    <!-- ============================================ -->
+    <section class="content-section alt" id="pricing">
+        <div class="container">
+            <div class="section-header" style="text-align:center;margin-bottom:50px;">
+                <span class="lbl" style="display:block;font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--secondary);margin-bottom:14px;">Transparent Pricing</span>
+                <h2>Instant Tutoring <em style="color:var(--secondary);font-style:italic;">Rates</em></h2>
+                <div class="gold-line center"></div>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <div class="pricing-tier">Single Session</div>
+                    <div class="pricing-price">$15<span>/15 min</span></div>
+                    <p class="pricing-note">Pay as you go</p>
+                    <ul class="pricing-features">
+                        <li>Connect instantly with a tutor</li>
+                        <li>Perfect for quick questions</li>
+                        <li>No commitment required</li>
+                        <li>Available 24/7</li>
+                    </ul>
+                    <a href="https://studyzone-platform-tofl.vercel.app" target="_blank" class="btn btn-primary" style="width:100%">Start Now</a>
                 </div>
-                <div class="faq-item reveal">
-                    <h4>Can we switch tutors?</h4>
-                    <p>Absolutely. We want the perfect fit. If a tutor isn't right, we'll find one who is — no questions asked.</p>
+
+                <div class="pricing-card reveal featured">
+                    <div class="pricing-tier" style="color:var(--secondary);">Hourly Pass</div>
+                    <div class="pricing-price" style="color:var(--secondary);">$45<span style="color:rgba(255,255,255,0.6);">/hour</span></div>
+                    <p class="pricing-note">Best for homework help</p>
+                    <ul class="pricing-features">
+                        <li>Full hour of 1-on-1 support</li>
+                        <li>Same-day availability</li>
+                        <li>Ontario-certified tutors</li>
+                        <li>All subjects covered</li>
+                    </ul>
+                    <a href="https://studyzone-platform-tofl.vercel.app" target="_blank" class="btn btn-primary" style="width:100%;background:var(--secondary);color:var(--primary);border-color:var(--secondary);">Start Now</a>
+                </div>
+
+                <div class="pricing-card reveal">
+                    <div class="pricing-tier">Monthly Plan</div>
+                    <div class="pricing-price">$149<span>/mo</span></div>
+                    <p class="pricing-note">5 hours included</p>
+                    <ul class="pricing-features">
+                        <li>5 hours of instant tutoring</li>
+                        <li>Rollover minutes</li>
+                        <li>Priority matching</li>
+                        <li>Cancel anytime</li>
+                    </ul>
+                    <a href="https://studyzone-platform-tofl.vercel.app" target="_blank" class="btn btn-primary" style="width:100%">Start Now</a>
                 </div>
             </div>
-            <div style="text-align: center; margin-top: 30px;">
-                <a href="/faq" class="btn btn-primary">View All FAQs</a>
+            <div style="text-align:center;margin-top:40px;" class="reveal">
+                <p style="color:var(--text-light);margin-bottom:20px;"><strong>💡 Package Discounts:</strong> 10% off 10 sessions · 15% off 20 sessions</p>
+                <a href="https://studyzone-platform-tofl.vercel.app" target="_blank" class="btn btn-primary">Get Started on the Platform</a>
             </div>
         </div>
     </section>
@@ -745,18 +1037,56 @@
                 <a href="/ib-programs" class="related-link">🎓 IB Programs</a>
                 <a href="/test-prep" class="related-link">📋 Test Prep</a>
                 <a href="/kindergarten-readiness" class="related-link">🧸 Kindergarten Readiness</a>
+                <a href="/courses" class="related-link">📚 All Programs</a>
             </div>
         </div>
     </section>
 
     <!-- ============================================ -->
-    <!-- CTA SECTION                                  -->
+    <!-- CONTACT SECTION (form with mailto)           -->
     <!-- ============================================ -->
-    <section class="cta-section">
+    <section class="content-section" id="contact">
         <div class="container">
-            <h2 class="reveal">Prefer to Talk First?</h2>
-            <p class="reveal">Call us directly at (647) 849-4344 or email info@thestudyzone.ca. We're here to answer your questions.</p>
-            <a href="tel:+16478494344" class="btn btn-primary reveal">Call (647) 849-4344</a>
+            <div class="contact-layout">
+                <div class="reveal-l">
+                    <span class="lbl" style="display:block;font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--secondary);margin-bottom:14px;">Get In Touch</span>
+                    <h2>Questions About<br>Instant Tutoring?</h2>
+                    <p class="sub" style="color:var(--text-light);margin-bottom:44px;font-size:1.05rem;max-width:400px;">We're here to help. Reach out and we'll get back to you within 24 hours.</p>
+                    <div class="contact-info">
+                        <div class="ci">
+                            <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></div>
+                            <div><div class="ci-lbl">Phone / WhatsApp</div><div class="ci-val">1 (647) 849-4344</div></div>
+                        </div>
+                        <div class="ci">
+                            <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div>
+                            <div><div class="ci-lbl">Email</div><div class="ci-val">info@thestudyzone.ca</div></div>
+                        </div>
+                        <div class="ci">
+                            <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
+                            <div><div class="ci-lbl">Location</div><div class="ci-val">Brampton & Caledon, Ontario — In-person, In-home & Online</div></div>
+                        </div>
+                        <div class="ci">
+                            <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg></div>
+                            <div><div class="ci-lbl">Hours</div><div class="ci-val">Mon–Fri 10am–8pm &nbsp;·&nbsp; Sat–Sun Closed</div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal-r">
+                    <div class="cform">
+                        <h3>Ask About Instant Tutoring</h3>
+                        <div class="frow">
+                            <div class="fg"><label>Parent Name</label><input type="text" id="contactName" placeholder="Your full name"></div>
+                            <div class="fg"><label>Phone / WhatsApp</label><input type="tel" id="contactPhone" placeholder="1 (647) ..."></div>
+                        </div>
+                        <div class="fg"><label>Email Address</label><input type="email" id="contactEmail" placeholder="you@email.com"></div>
+                        <div class="fg">
+                            <label>Message</label>
+                            <textarea id="contactMessage" placeholder="Tell us about your instant tutoring needs..."></textarea>
+                        </div>
+                        <button class="fsub" onclick="submitContactForm()">Send Inquiry →</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -810,8 +1140,8 @@
     <!-- FIXED ELEMENTS                               -->
     <!-- ============================================ -->
     <div class="sticky-cta">
-        <p>🎓 Free Assessment + 20% Off First Month</p>
-        <a href="/registration" class="btn btn-primary">Register Now</a>
+        <p>⚡ Need Help Now? Connect with a Tutor Instantly!</p>
+        <a href="https://studyzone-platform-tofl.vercel.app" target="_blank" class="btn btn-primary">Launch Platform ⚡</a>
     </div>
 
     <button class="back-to-top" aria-label="Back to top">↑</button>
@@ -826,11 +1156,11 @@
     <div class="exit-modal-overlay">
         <div class="exit-modal">
             <button class="exit-modal-close" aria-label="Close offer">&times;</button>
-            <h2>Wait! Don't Leave Empty-Handed</h2>
-            <div class="discount">🎁 20% OFF Your First Month</div>
-            <p>Join 500+ families who've seen their children's grades soar. Book your free assessment today and lock in this exclusive discount.</p>
-            <a href="/registration" class="btn btn-primary">Claim My 20% Off</a>
-            <p style="margin-top:15px;font-size:.85rem;color:var(--text-light)">No commitment. Cancel anytime.</p>
+            <h2>Need Help Right Now?</h2>
+            <div class="discount">⚡ 20% OFF Your First Instant Session</div>
+            <p>Don't wait for tomorrow. Connect with an Ontario-certified tutor in minutes and get the help you need right now.</p>
+            <a href="https://studyzone-platform-tofl.vercel.app" target="_blank" class="btn btn-primary">Get Instant Help →</a>
+            <p style="margin-top:15px;font-size:.85rem;color:var(--text-light)">No commitment. Pay per session.</p>
         </div>
     </div>
 
@@ -911,18 +1241,18 @@
 
             // ----- WHATSAPP CHAT -----
             document.querySelector('.chat-btn').addEventListener('click', () => {
-                window.open('https://wa.me/16478494344?text=Hi%20Study%20Zone%2C%20I%20have%20a%20question%20about%20registration', '_blank');
+                window.open('https://wa.me/16478494344?text=Hi%20Study%20Zone%2C%20I%20have%20a%20question%20about%20instant%20tutoring', '_blank');
             });
 
             // ----- EXIT-INTENT MODAL -----
             const exitModal = document.querySelector('.exit-modal-overlay');
             let exitShown = false;
-            if (exitModal && !localStorage.getItem('exitModalShownRegistration')) {
+            if (exitModal && !localStorage.getItem('exitModalShownInstant')) {
                 document.addEventListener('mouseleave', (e) => {
                     if (e.clientY < 0 && !exitShown) {
                         exitModal.classList.add('active');
                         exitShown = true;
-                        localStorage.setItem('exitModalShownRegistration', 'true');
+                        localStorage.setItem('exitModalShownInstant', 'true');
                     }
                 });
                 exitModal.querySelector('.exit-modal-close').addEventListener('click', () => {
@@ -932,6 +1262,43 @@
                     if (e.target === exitModal) exitModal.classList.remove('active');
                 });
             }
+
+            // ----- CONTACT FORM (mailto) -----
+            window.submitContactForm = function() {
+                const name = document.getElementById('contactName')?.value || 'Not provided';
+                const phone = document.getElementById('contactPhone')?.value || 'Not provided';
+                const email = document.getElementById('contactEmail')?.value || 'Not provided';
+                const message = document.getElementById('contactMessage')?.value || 'Not provided';
+
+                const body = 'Instant Tutoring Inquiry\n';
+                body += '==========================\n\n';
+                body += `Name: ${name}\n`;
+                body += `Phone: ${phone}\n`;
+                body += `Email: ${email}\n\n`;
+                body += `Message:\n${message}\n\n`;
+                body += '---\nSubmitted from: ' + window.location.href + '\n';
+                body += 'Date: ' + new Date().toLocaleString();
+
+                const subject = encodeURIComponent('Instant Tutoring Inquiry');
+                const encodedBody = encodeURIComponent(body);
+                window.location.href = `mailto:info@thestudyzone.ca?subject=${subject}&body=${encodedBody}`;
+
+                const btn = document.querySelector('.cform .fsub');
+                if (btn) {
+                    btn.textContent = "✓ Inquiry sent — we'll be in touch within 24 hours.";
+                    btn.classList.add('sent');
+                    btn.disabled = true;
+                }
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'form_submit', {
+                        event_category: 'engagement',
+                        event_label: 'instant-tutoring-contact'
+                    });
+                }
+                if (typeof fbq !== 'undefined') {
+                    fbq('track', 'Lead');
+                }
+            };
 
             // ----- ACCESSIBILITY -----
             document.addEventListener('keydown', e => {

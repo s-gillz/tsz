@@ -7,20 +7,20 @@
     <!-- ============================================ -->
     <!-- SEO META TAGS                                -->
     <!-- ============================================ -->
-    <title>Register | The Study Zone - Book Your Free Assessment in GTA</title>
-    <meta name="description" content="Register for tutoring at The Study Zone. Book your free assessment. Serving Brampton, Caledon, Bolton & GTA. In-person and online tutoring available. L6R, L6P & GTA.">
-    <meta name="keywords" content="register tutoring L6R, book tutoring L6P, tutoring registration GTA, free assessment tutoring, Brampton tutoring registration, Caledon tutor booking">
-    <link rel="canonical" href="https://www.thestudyzone.ca/registration">
+    <title>EQAO, OSSLT, SAT, ACT & HSPT Prep | The Study Zone GTA</title>
+    <meta name="description" content="Targeted test prep for EQAO, OSSLT, SAT, ACT & HSPT in Brampton & Caledon. Proven strategies, past papers, timed practice. Free assessment. Serving L6R, L6P & GTA.">
+    <meta name="keywords" content="EQAO prep L6R, OSSLT tutor L6P, SAT prep Brampton, ACT tutor Caledon, HSPT prep GTA, test preparation L6R, EQAO Grade 3 6 9, OSSLT Grade 10">
+    <link rel="canonical" href="https://www.thestudyzone.ca/test-prep">
 
     <!-- FAVICON -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>">
 
     <!-- OPEN GRAPH -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.thestudyzone.ca/registration">
-    <meta property="og:title" content="Register | The Study Zone - Book Your Free Assessment">
-    <meta property="og:description" content="Register for tutoring at The Study Zone. Free assessment available for GTA families.">
-    <meta property="og:image" content="https://via.placeholder.com/1200x630/0f1f3d/c5a059?text=TSZ+Registration">
+    <meta property="og:url" content="https://www.thestudyzone.ca/test-prep">
+    <meta property="og:title" content="EQAO, OSSLT, SAT, ACT & HSPT Prep | The Study Zone">
+    <meta property="og:description" content="Targeted test prep for EQAO, OSSLT, SAT, ACT & HSPT in Brampton & Caledon. Proven strategies, past papers, timed practice. Free assessment.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/0f1f3d/c5a059?text=TSZ+Test+Prep">
 
     <!-- PRECONNECT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -69,13 +69,14 @@
             {"@type": "City", "name": "Bolton"},
             {"@type": "Place", "name": "Greater Toronto Area"}
           ],
-          "serviceType": ["Academic Tutoring", "IB Preparation", "STEM Education", "Test Preparation", "Online Tutoring"]
+          "serviceType": ["Test Preparation", "EQAO Prep", "OSSLT Prep", "SAT Prep", "ACT Prep", "HSPT Prep"]
         },
         {
           "@type": "BreadcrumbList",
           "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.thestudyzone.ca/"},
-            {"@type": "ListItem", "position": 2, "name": "Registration", "item": "https://www.thestudyzone.ca/registration"}
+            {"@type": "ListItem", "position": 2, "name": "Programs", "item": "https://www.thestudyzone.ca/courses"},
+            {"@type": "ListItem", "position": 3, "name": "Test Prep", "item": "https://www.thestudyzone.ca/test-prep"}
           ]
         },
         {
@@ -83,18 +84,18 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Do you offer tutoring in L6R and L6P areas?",
+              "name": "Do you offer test prep in L6R and L6P areas?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, we serve all Brampton, Caledon, and GTA neighborhoods including L6R, L6P, and surrounding postal codes with in-home and online tutoring."
+                "text": "Yes, we serve all Brampton, Caledon, and GTA neighborhoods including L6R, L6P, and surrounding postal codes with in-home and online test preparation."
               }
             },
             {
               "@type": "Question",
-              "name": "How long does it take to start tutoring?",
+              "name": "Which tests do you prepare students for?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Most families begin within 3-5 days of registration. Urgent requests can often be accommodated sooner."
+                "text": "We offer preparation for EQAO (Grades 3, 6, 9), OSSLT (Grade 10), SAT, ACT, and HSPT with proven strategies and practice materials."
               }
             }
           ]
@@ -256,7 +257,7 @@
         /* 5. PAGE HERO                                 */
         /* ============================================ */
         .page-hero {
-            min-height: 40vh;
+            min-height: 50vh;
             display: flex; align-items: center;
             background: linear-gradient(135deg, var(--primary) 0%, #1a365d 100%);
             color: var(--white);
@@ -271,138 +272,200 @@
             right: 0;
             width: 50%;
             height: 100%;
-            background: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80') no-repeat center center/cover;
+            background: url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80') no-repeat center center/cover;
             opacity: 0.30;
             clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
             pointer-events: none;
             z-index: 1;
         }
         .page-hero .container { position: relative; z-index: 2; }
+        .page-hero .pill {
+            display: inline-block;
+            background: rgba(197, 160, 89, 0.15);
+            border: 1px solid rgba(197, 160, 89, 0.3);
+            color: var(--secondary);
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+        .page-hero .pill-dot {
+            display: inline-block;
+            width: 6px; height: 6px;
+            background: var(--secondary);
+            border-radius: 50%;
+            margin-right: 8px;
+        }
         .page-hero h1 { font-size: 3.5rem; margin-bottom: 15px; }
+        .page-hero h1 em { color: var(--secondary); font-style: italic; }
         .page-hero p { font-size: 1.2rem; color: rgba(255,255,255,0.85); max-width: 600px; }
+        .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px; }
 
         /* ============================================ */
-        /* 6. REGISTRATION SECTION (JOTFORM)            */
+        /* 6. CONTENT SECTIONS                          */
         /* ============================================ */
-        .registration-section {
-            padding: 80px 0;
+        .content-section { padding: 80px 0; }
+        .content-section.alt { background: var(--accent); }
+
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .two-col.reverse { direction: rtl; }
+        .two-col.reverse > * { direction: ltr; }
+
+        .section-img {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .section-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
             background: var(--accent);
         }
-        .registration-wrapper {
-            max-width: 900px;
-            margin: 0 auto;
-            background: var(--white);
-            border-radius: 16px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
-            overflow: hidden;
+        .section-img:hover img { transform: scale(1.03); }
+
+        .section-text h2 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 20px;
         }
-        .registration-header {
-            background: var(--primary);
-            color: var(--white);
-            padding: 40px;
-            text-align: center;
-        }
-        .registration-header h2 {
-            color: var(--white);
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-        .registration-header p {
-            color: rgba(255,255,255,0.85);
+        .section-text h2 em { color: var(--secondary); font-style: italic; }
+        .section-text p {
+            color: var(--text-light);
+            margin-bottom: 20px;
             font-size: 1.05rem;
         }
-        .registration-header .badge {
-            display: inline-block;
-            background: var(--secondary);
-            color: var(--primary);
-            padding: 6px 16px;
-            border-radius: 50px;
-            font-size: 0.85rem;
-            font-weight: 700;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .jotform-container {
-            padding: 0;
-            min-height: 600px;
-        }
-        .jotform-container iframe {
-            width: 100%;
-            min-height: 800px;
-            border: none;
+        .section-text .lead {
+            font-size: 1.2rem;
+            color: var(--text);
+            font-weight: 500;
         }
 
-        /* ============================================ */
-        /* 7. TRUST BADGES                              */
-        /* ============================================ */
-        .trust-section {
-            padding: 60px 0;
-            text-align: center;
-            background: var(--white);
+        .subject-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin: 24px 0 32px;
+            list-style: none;
         }
-        .trust-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-            max-width: 800px;
-            margin: 40px auto 0;
-        }
-        .trust-item {
-            padding: 25px;
-        }
-        .trust-item .icon {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
-        }
-        .trust-item h4 {
-            font-family: 'Inter', sans-serif;
-            font-weight: 600;
-            color: var(--primary);
-            margin-bottom: 8px;
-            font-size: 1.1rem;
-        }
-        .trust-item p {
-            color: var(--text-light);
-            font-size: 0.95rem;
-        }
-
-        /* ============================================ */
-        /* 8. FAQ STRIP                                 */
-        /* ============================================ */
-        .faq-strip {
-            padding: 60px 0;
+        .subject-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 10px 14px;
             background: var(--accent);
+            border-radius: 8px;
+            border-left: 3px solid var(--secondary);
+            font-size: 0.9rem;
+            color: var(--text-light);
         }
-        .faq-strip h2 {
-            text-align: center;
-            font-size: 2rem;
-            color: var(--primary);
-            margin-bottom: 40px;
-        }
-        .faq-grid {
+        .subject-list li::before { content: '✓'; color: var(--secondary); font-weight: 700; flex-shrink: 0; }
+        .subject-list li strong { color: var(--primary); }
+
+        /* ============================================ */
+        /* 7. FEATURE GRID                              */
+        /* ============================================ */
+        .feature-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .feature-card {
+            background: var(--white);
+            border: 1px solid var(--accent);
+            border-radius: 12px;
+            padding: 32px;
+            transition: var(--transition);
+        }
+        .feature-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 36px rgba(15,31,61,0.08);
+            border-color: var(--secondary);
+        }
+        .feature-icon { font-size: 2.5rem; margin-bottom: 16px; }
+        .feature-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        .feature-desc { color: var(--text-light); font-size: 0.9rem; line-height: 1.65; }
+
+        /* ============================================ */
+        /* 8. PRICING TABLE                             */
+        /* ============================================ */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
             max-width: 900px;
             margin: 0 auto;
         }
-        .faq-item {
+        .pricing-card {
             background: var(--white);
-            padding: 25px 30px;
-            border-radius: 10px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            border-radius: 12px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: var(--transition);
+            border: 2px solid var(--accent);
         }
-        .faq-item h4 {
-            font-family: 'Inter', sans-serif;
+        .pricing-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--secondary);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+        .pricing-card.featured {
+            background: var(--primary);
+            color: var(--white);
+            border-color: var(--secondary);
+        }
+        .pricing-card.featured .pricing-price { color: var(--secondary); }
+        .pricing-card.featured .pricing-note { color: rgba(255,255,255,0.8); }
+        .pricing-tier {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
             font-weight: 600;
-            color: var(--primary);
-            margin-bottom: 10px;
-            font-size: 1.05rem;
+            color: var(--secondary);
+            margin-bottom: 15px;
         }
-        .faq-item p {
-            color: var(--text-light);
-            font-size: 0.95rem;
+        .pricing-price {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary);
+            font-family: 'Inter', sans-serif;
+        }
+        .pricing-price span { font-size: 1rem; font-weight: 400; color: var(--text-light); }
+        .pricing-note { color: var(--text-light); font-size: 0.95rem; margin: 15px 0 25px; }
+        .pricing-features {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+        .pricing-features li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            font-size: 0.9rem;
+        }
+        .pricing-features li::before {
+            content: "✓";
+            color: var(--success);
+            margin-right: 10px;
+            font-weight: 700;
+        }
+        .pricing-card.featured .pricing-features li {
+            border-bottom-color: rgba(255,255,255,0.1);
         }
 
         /* ============================================ */
@@ -442,20 +505,120 @@
         }
 
         /* ============================================ */
-        /* 10. CTA SECTION                              */
+        /* 10. CTA BANNER                               */
         /* ============================================ */
-        .cta-section {
+        .cta-banner {
+            background: var(--primary);
             padding: 80px 0;
             text-align: center;
-            background: var(--primary);
             color: var(--white);
         }
-        .cta-section h2 { color: var(--white); font-size: 2.2rem; margin-bottom: 15px; }
-        .cta-section p { color: rgba(255,255,255,0.85); max-width: 600px; margin: 0 auto 30px; font-size: 1.1rem; }
-        .cta-section .btn-primary { font-size: 1rem; padding: 16px 40px; }
+        .cta-banner h2 {
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            color: var(--white);
+            margin-bottom: 16px;
+        }
+        .cta-banner h2 em { color: var(--secondary); font-style: italic; }
+        .cta-banner p {
+            color: rgba(255,255,255,0.85);
+            max-width: 600px;
+            margin: 0 auto 32px;
+            font-size: 1.1rem;
+        }
 
         /* ============================================ */
-        /* 11. FOOTER (STANDARDIZED)                    */
+        /* 11. CONTACT SECTION                          */
+        /* ============================================ */
+        .contact-layout {
+            display: grid;
+            grid-template-columns: 5fr 7fr;
+            gap: 80px;
+            align-items: start;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+        .ci {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+        .ci-icon {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .ci-icon svg { width: 20px; height: 20px; fill: var(--secondary); }
+        .ci-lbl {
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--secondary);
+            margin-bottom: 3px;
+        }
+        .ci-val { font-size: 0.95rem; color: var(--primary); font-weight: 500; }
+
+        .cform {
+            background: var(--white);
+            border: 1.5px solid var(--accent);
+            border-radius: 16px;
+            padding: 44px;
+        }
+        .cform h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 28px;
+        }
+        .fg { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+        .fg label { font-size: 0.78rem; font-weight: 600; color: var(--text-light); letter-spacing: 0.4px; }
+        .fg input, .fg select, .fg textarea {
+            padding: 12px 16px;
+            border: 1.5px solid var(--accent);
+            border-radius: 8px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            color: var(--text);
+            background: var(--white);
+            transition: border-color .2s;
+            outline: none;
+        }
+        .fg input:focus, .fg select:focus, .fg textarea:focus {
+            border-color: var(--secondary);
+            box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.1);
+        }
+        .fg textarea { height: 100px; resize: vertical; }
+        .frow { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+        .fsub {
+            width: 100%;
+            padding: 15px;
+            background: var(--secondary);
+            color: var(--primary);
+            border: none;
+            border-radius: 50px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        .fsub:hover {
+            background: #d4af37;
+            transform: translateY(-2px);
+        }
+        .fsub.sent { background: var(--success); color: white; }
+
+        /* ============================================ */
+        /* 12. FOOTER (STANDARDIZED)                    */
         /* ============================================ */
         footer { background: #080f1e; color: var(--footer-text); padding: 60px 0 20px; }
         .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
@@ -469,7 +632,7 @@
         .copyright { text-align: center; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.9rem; color: var(--footer-text); }
 
         /* ============================================ */
-        /* 12. FIXED ELEMENTS                           */
+        /* 13. FIXED ELEMENTS                           */
         /* ============================================ */
         .sticky-cta {
             position: fixed; bottom: 0; left: 0; width: 100%;
@@ -512,7 +675,7 @@
         /* NO SOCIAL PROOF POPUP - REMOVED */
 
         /* ============================================ */
-        /* 13. EXIT-INTENT MODAL                        */
+        /* 14. EXIT-INTENT MODAL                        */
         /* ============================================ */
         .exit-modal-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
@@ -537,7 +700,7 @@
         .exit-modal-close { position: absolute; top: 15px; right: 20px; font-size: 1.5rem; cursor: pointer; color: var(--text-light); background: none; border: none; }
 
         /* ============================================ */
-        /* 14. ACCESSIBILITY & RESPONSIVE               */
+        /* 15. ACCESSIBILITY & RESPONSIVE               */
         /* ============================================ */
         .skip-link {
             position: absolute; top: -40px; left: 0;
@@ -556,29 +719,32 @@
         }
 
         @media (max-width: 992px) {
+            .two-col { grid-template-columns: 1fr; }
+            .two-col.reverse { direction: ltr; }
             .footer-grid { grid-template-columns: 1fr 1fr; }
             .page-hero h1 { font-size: 2.5rem; }
             .page-hero::after { width: 100%; clip-path: none; opacity: 0.15; }
+            .contact-layout { grid-template-columns: 1fr; gap: 48px; }
         }
         @media (max-width: 768px) {
             .nav-links { display: none; }
             .mobile-menu-btn { display: block; color: var(--primary); }
             .page-hero h1 { font-size: 2rem; }
             .page-hero { padding-top: 130px; }
-            .registration-header { padding: 30px 20px; }
-            .registration-header h2 { font-size: 1.6rem; }
-            .jotform-container iframe { min-height: 1000px; }
+            .section-text h2 { font-size: 1.8rem; }
             .footer-grid { grid-template-columns: 1fr; }
             .sticky-cta { flex-direction: column; gap: 10px; padding: 15px; }
-            .cta-section h2 { font-size: 1.8rem; }
+            .cform { padding: 28px 22px; }
+            .frow { grid-template-columns: 1fr; }
+            .feature-grid { grid-template-columns: 1fr; }
+            .pricing-grid { grid-template-columns: 1fr; }
+            .hero-btns { flex-direction: column; align-items: stretch; }
+            .btn { text-align: center; }
             .related-grid { grid-template-columns: 1fr 1fr; }
-            .trust-grid { grid-template-columns: 1fr 1fr; }
-            .faq-grid { grid-template-columns: 1fr; }
         }
         @media (max-width: 480px) {
             .page-hero h1 { font-size: 1.8rem; }
             .btn { padding: 10px 20px; font-size: 0.8rem; }
-            .trust-grid { grid-template-columns: 1fr; }
             .related-grid { grid-template-columns: 1fr; }
         }
     </style>
@@ -590,7 +756,7 @@
     <!-- PROMO BANNER                                 -->
     <!-- ============================================ -->
     <div class="promo-banner">
-        🎓 Limited Time: FREE Academic Assessment for Brampton & Caledon Families! <a href="/registration">Book Now</a>
+        📝 Ace Your Exams with Expert Prep — Free Assessment + 20% Off First Month! <a href="/registration">Claim Now →</a>
     </div>
 
     <!-- ============================================ -->
@@ -628,7 +794,7 @@
     <!-- ============================================ -->
     <div class="breadcrumbs">
         <div class="container">
-            <a href="/">Home</a> <span>›</span> <span>Registration</span>
+            <a href="/">Home</a> <span>›</span> <a href="/courses">Programs</a> <span>›</span> Test Prep
         </div>
     </div>
 
@@ -637,8 +803,13 @@
     <!-- ============================================ -->
     <section class="page-hero">
         <div class="container">
-            <h1>Start Your Journey</h1>
-            <p>Book your free assessment in minutes. No commitment, no pressure — just a conversation about how we can help your child succeed.</p>
+            <div class="pill"><span class="pill-dot"></span>EQAO · OSSLT · SAT · ACT · HSPT</div>
+            <h1>Test Prep That <em>Delivers Results</em></h1>
+            <p>Achieve top scores on standardized exams. Our targeted classes focus on the specific skills and test-taking strategies required to perform exceptionally on provincial and competitive admissions standards.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Book Free Test Prep Assessment</a>
+                <a href="#pricing" class="btn btn-outline">View Pricing</a>
+            </div>
         </div>
     </section>
 
@@ -648,85 +819,155 @@
     <main id="main-content">
 
     <!-- ============================================ -->
-    <!-- REGISTRATION FORM - JOTFORM EMBED            -->
+    <!-- EQAO & OSSLT SECTION                         -->
     <!-- ============================================ -->
-    <section class="registration-section">
+    <section class="content-section alt">
         <div class="container">
-            <div class="registration-wrapper reveal">
-                <div class="registration-header">
-                    <span class="badge">Free Assessment</span>
-                    <h2>Tutoring Registration</h2>
-                    <p>Fill out the form below and our team will contact you within 24 hours.</p>
+            <div class="two-col">
+                <div class="section-text reveal-l">
+                    <span class="lbl" style="display:block;font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--secondary);margin-bottom:14px;">Ontario Provincial Tests</span>
+                    <h2>EQAO & OSSLT <em>Preparation</em></h2>
+                    <p class="lead">Prepare for success in Ontario's standardized assessments. Our targeted classes focus on the specific skills and test-taking strategies required to perform exceptionally.</p>
+                    <ul class="subject-list">
+                        <li><strong>EQAO Grade 3:</strong> Reading, Writing & Mathematics — foundational skills assessment</li>
+                        <li><strong>EQAO Grade 6:</strong> Reading, Writing & Mathematics — intermediate skills assessment</li>
+                        <li><strong>EQAO Grade 9:</strong> Mathematics — de-streamed curriculum assessment</li>
+                        <li><strong>OSSLT (Grade 10):</strong> Ontario Secondary School Literacy Test — reading & writing tasks</li>
+                        <li><strong>Past Papers & Strategies:</strong> We know exactly what the tests look for</li>
+                        <li><strong>Timed Practice:</strong> Building confidence through simulated test conditions</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" style="display:inline-block">Start EQAO / OSSLT Prep →</a>
                 </div>
-                <div class="jotform-container">
-                    <!-- ============================================ -->
-                    <!-- JOTFORM EMBED CODE - DO NOT MODIFY           -->
-                    <!-- Replace src URL if JotForm provides new one  -->
-                    <!-- ============================================ -->
-                    <script type="text/javascript" src="https://form.jotform.com/jsform/202315089397258"></script>
+                <div class="section-img reveal-r">
+                    <img src="https://picsum.photos/seed/test1/800/500" alt="EQAO and OSSLT test preparation tutoring" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ============================================ -->
-    <!-- TRUST BADGES                                 -->
+    <!-- SAT, ACT & HSPT SECTION                      -->
     <!-- ============================================ -->
-    <section class="trust-section">
+    <section class="content-section">
         <div class="container">
-            <h2 style="font-size: 2rem; color: var(--primary); margin-bottom: 10px;">Why Families Choose Us</h2>
-            <div class="gold-line center"></div>
-            <div class="trust-grid">
-                <div class="trust-item reveal">
-                    <div class="icon">🎯</div>
-                    <h4>Free Assessment</h4>
-                    <p>No cost, no obligation. We evaluate your child's needs before recommending a program.</p>
+            <div class="two-col reverse">
+                <div class="section-text reveal-r">
+                    <span class="lbl" style="display:block;font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--secondary);margin-bottom:14px;">Competitive Admissions</span>
+                    <h2>SAT, ACT & HSPT <em>Preparation</em></h2>
+                    <p class="lead">Secure admission to prestigious high schools and universities. We offer specialized preparation for competitive entrance exams with proven strategies.</p>
+                    <ul class="subject-list">
+                        <li><strong>SAT Prep:</strong> Evidence-Based Reading, Writing, Math & Essay strategies</li>
+                        <li><strong>ACT Prep:</strong> English, Math, Reading, Science & Writing sections</li>
+                        <li><strong>HSPT (High School Placement Test):</strong> Verbal, Quantitative, Reading, Math, Language skills</li>
+                        <li><strong>Test-Taking Strategies:</strong> Time management, elimination techniques, stress management</li>
+                        <li><strong>Practice Exams:</strong> Full-length simulated tests with detailed score analysis</li>
+                        <li><strong>Score Improvement:</strong> Average score increases of 100-200+ points</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" style="display:inline-block">Start SAT / ACT / HSPT Prep →</a>
                 </div>
-                <div class="trust-item reveal">
-                    <div class="icon">👨‍🏫</div>
-                    <h4>Ontario-Certified Tutors</h4>
-                    <p>Every tutor is vetted, trained, and experienced with the Ontario curriculum.</p>
-                </div>
-                <div class="trust-item reveal">
-                    <div class="icon">📍</div>
-                    <h4>In-Person or Online</h4>
-                    <p>Choose home tutoring in the GTA or virtual sessions from anywhere.</p>
-                </div>
-                <div class="trust-item reveal">
-                    <div class="icon">📊</div>
-                    <h4>Progress Tracking</h4>
-                    <p>Regular updates so you always know how your child is improving.</p>
+                <div class="section-img reveal-l">
+                    <img src="https://picsum.photos/seed/test2/800/500" alt="SAT, ACT and HSPT competitive admissions test prep" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ============================================ -->
-    <!-- FAQ STRIP                                    -->
+    <!-- WHY CHOOSE US (FEATURES)                     -->
     <!-- ============================================ -->
-    <section class="faq-strip">
+    <section class="content-section alt">
         <div class="container">
-            <h2>Quick Questions</h2>
-            <div class="faq-grid">
-                <div class="faq-item reveal">
-                    <h4>How soon can we start?</h4>
-                    <p>Most families begin within 3-5 days of registration. Urgent requests can often be accommodated sooner.</p>
+            <div class="section-header" style="text-align:center;margin-bottom:50px;">
+                <span class="lbl" style="display:block;font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--secondary);margin-bottom:14px;">Why Choose TSZ</span>
+                <h2>The Test Prep <em style="color:var(--secondary);font-style:italic;">Advantage</em></h2>
+                <div class="gold-line center"></div>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">📋</div>
+                    <div class="feature-title">Test Format Expertise</div>
+                    <div class="feature-desc">We know exactly what each test looks for — from EQAO rubrics to SAT scoring algorithms.</div>
                 </div>
-                <div class="faq-item reveal">
-                    <h4>What subjects do you cover?</h4>
-                    <p>Math, Science, English, French, IB, AP, EQAO prep, and more. We match tutors to your exact needs.</p>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">⏱️</div>
+                    <div class="feature-title">Timed Practice</div>
+                    <div class="feature-desc">Simulated test conditions build confidence and eliminate time-pressure anxiety.</div>
                 </div>
-                <div class="faq-item reveal">
-                    <h4>Is there a contract?</h4>
-                    <p>No long-term contracts. We offer flexible packages that fit your schedule and budget.</p>
-                </div>
-                <div class="faq-item reveal">
-                    <h4>Can we switch tutors?</h4>
-                    <p>Absolutely. We want the perfect fit. If a tutor isn't right, we'll find one who is — no questions asked.</p>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">📈</div>
+                    <div class="feature-title">Proven Results</div>
+                    <div class="feature-desc">Students consistently see significant score improvements and pass rates on first attempts.</div>
                 </div>
             </div>
-            <div style="text-align: center; margin-top: 30px;">
-                <a href="/faq" class="btn btn-primary">View All FAQs</a>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PRICING SECTION                              -->
+    <!-- ============================================ -->
+    <section class="content-section" id="pricing">
+        <div class="container">
+            <div class="section-header" style="text-align:center;margin-bottom:50px;">
+                <span class="lbl" style="display:block;font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--secondary);margin-bottom:14px;">Transparent Pricing</span>
+                <h2>Test Prep <em style="color:var(--secondary);font-style:italic;">Rates</em></h2>
+                <div class="gold-line center"></div>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <div class="pricing-tier">EQAO & OSSLT Prep</div>
+                    <div class="pricing-price">$55<span>/hour</span></div>
+                    <p class="pricing-note">Provincial test preparation</p>
+                    <ul class="pricing-features">
+                        <li>EQAO Grades 3, 6, 9</li>
+                        <li>OSSLT (Grade 10)</li>
+                        <li>Past paper practice</li>
+                        <li>Timed test simulations</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" style="width:100%">Get Started</a>
+                </div>
+
+                <div class="pricing-card reveal featured">
+                    <div class="pricing-tier" style="color:var(--secondary);">SAT & ACT Prep</div>
+                    <div class="pricing-price" style="color:var(--secondary);">$65<span style="color:rgba(255,255,255,0.6);">/hour</span></div>
+                    <p class="pricing-note">University admissions prep</p>
+                    <ul class="pricing-features">
+                        <li>SAT & ACT strategies</li>
+                        <li>Full practice exams</li>
+                        <li>Essay writing support</li>
+                        <li>Score improvement focus</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" style="width:100%;background:var(--secondary);color:var(--primary);border-color:var(--secondary);">Get Started</a>
+                </div>
+
+                <div class="pricing-card reveal">
+                    <div class="pricing-tier">HSPT & Admissions Prep</div>
+                    <div class="pricing-price">$65<span>/hour</span></div>
+                    <p class="pricing-note">Private school admissions</p>
+                    <ul class="pricing-features">
+                        <li>HSPT full preparation</li>
+                        <li>Interview & application help</li>
+                        <li>Academic assessment</li>
+                        <li>School placement strategies</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary" style="width:100%">Get Started</a>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:40px;" class="reveal">
+                <p style="color:var(--text-light);margin-bottom:20px;"><strong>💡 Package Discounts:</strong> 10% off 10 sessions · 15% off 20 sessions</p>
+                <a href="#contact" class="btn btn-primary">Book Free Assessment</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CTA BANNER                                   -->
+    <!-- ============================================ -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="reveal">
+                <h2>Ace Your Exams. <em>Pass With Confidence.</em></h2>
+                <p>Your first assessment is completely free. Let's build your test-taking strategy together.</p>
+                <a href="#contact" class="btn btn-primary" style="font-size:1rem;padding:17px 44px;">Book Free Test Prep Assessment →</a>
             </div>
         </div>
     </section>
@@ -736,27 +977,89 @@
     <!-- ============================================ -->
     <section class="related-services">
         <div class="container">
-            <h2>Explore Our Programs</h2>
+            <h2>Explore Our Other Programs</h2>
             <div class="gold-line center"></div>
             <div class="related-grid">
                 <a href="/math-tutoring" class="related-link">📐 Math Tutoring</a>
                 <a href="/science-tutoring" class="related-link">🔬 Science Tutoring</a>
                 <a href="/english-tutoring" class="related-link">📝 English Tutoring</a>
                 <a href="/ib-programs" class="related-link">🎓 IB Programs</a>
-                <a href="/test-prep" class="related-link">📋 Test Prep</a>
                 <a href="/kindergarten-readiness" class="related-link">🧸 Kindergarten Readiness</a>
+                <a href="/instant-tutoring" class="related-link">⚡ Instant Tutoring</a>
             </div>
         </div>
     </section>
 
     <!-- ============================================ -->
-    <!-- CTA SECTION                                  -->
+    <!-- CONTACT SECTION                              -->
     <!-- ============================================ -->
-    <section class="cta-section">
+    <section class="content-section" id="contact">
         <div class="container">
-            <h2 class="reveal">Prefer to Talk First?</h2>
-            <p class="reveal">Call us directly at (647) 849-4344 or email info@thestudyzone.ca. We're here to answer your questions.</p>
-            <a href="tel:+16478494344" class="btn btn-primary reveal">Call (647) 849-4344</a>
+            <div class="contact-layout">
+                <div class="reveal-l">
+                    <span class="lbl" style="display:block;font-size:.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--secondary);margin-bottom:14px;">Get In Touch</span>
+                    <h2>Let's Start Your<br>Test Prep Journey</h2>
+                    <p class="sub" style="color:var(--text-light);margin-bottom:44px;font-size:1.05rem;max-width:400px;">We respond within 24 hours. No sales pitch — just a conversation about your exam goals.</p>
+                    <div class="contact-info">
+                        <div class="ci">
+                            <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></div>
+                            <div><div class="ci-lbl">Phone / WhatsApp</div><div class="ci-val">1 (647) 849-4344</div></div>
+                        </div>
+                        <div class="ci">
+                            <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div>
+                            <div><div class="ci-lbl">Email</div><div class="ci-val">info@thestudyzone.ca</div></div>
+                        </div>
+                        <div class="ci">
+                            <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
+                            <div><div class="ci-lbl">Location</div><div class="ci-val">Brampton & Caledon, Ontario — In-person, In-home & Online</div></div>
+                        </div>
+                        <div class="ci">
+                            <div class="ci-icon"><svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg></div>
+                            <div><div class="ci-lbl">Hours</div><div class="ci-val">Mon–Fri 10am–8pm &nbsp;·&nbsp; Sat–Sun Closed</div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal-r">
+                    <div class="cform">
+                        <h3>Book Your Free Assessment</h3>
+                        <div class="frow">
+                            <div class="fg"><label>Parent Name</label><input type="text" placeholder="Your full name"></div>
+                            <div class="fg"><label>Phone / WhatsApp</label><input type="tel" placeholder="1 (647) ..."></div>
+                        </div>
+                        <div class="fg"><label>Email Address</label><input type="email" placeholder="you@email.com"></div>
+                        <div class="frow">
+                            <div class="fg">
+                                <label>Student Grade</label>
+                                <select>
+                                    <option value="">Select grade...</option>
+                                    <option>Grade 3 (EQAO)</option>
+                                    <option>Grade 6 (EQAO)</option>
+                                    <option>Grade 9 (EQAO Math)</option>
+                                    <option>Grade 10 (OSSLT)</option>
+                                    <option>Grade 11 (SAT/ACT)</option>
+                                    <option>Grade 12 (SAT/ACT)</option>
+                                </select>
+                            </div>
+                            <div class="fg">
+                                <label>Test Prep Type</label>
+                                <select>
+                                    <option value="">Select test...</option>
+                                    <option>EQAO Grade 3</option>
+                                    <option>EQAO Grade 6</option>
+                                    <option>EQAO Grade 9 Math</option>
+                                    <option>OSSLT (Grade 10 Literacy)</option>
+                                    <option>SAT Preparation</option>
+                                    <option>ACT Preparation</option>
+                                    <option>HSPT Preparation</option>
+                                    <option>Multiple Tests</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="fg"><label>Anything we should know?</label><textarea placeholder="Challenges your child faces, preferred schedule, or any questions..."></textarea></div>
+                        <button class="fsub" onclick="submitForm(this)">Send My Free Assessment Request →</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -810,7 +1113,7 @@
     <!-- FIXED ELEMENTS                               -->
     <!-- ============================================ -->
     <div class="sticky-cta">
-        <p>🎓 Free Assessment + 20% Off First Month</p>
+        <p>📝 Free Test Prep Assessment + 20% Off First Month</p>
         <a href="/registration" class="btn btn-primary">Register Now</a>
     </div>
 
@@ -828,7 +1131,7 @@
             <button class="exit-modal-close" aria-label="Close offer">&times;</button>
             <h2>Wait! Don't Leave Empty-Handed</h2>
             <div class="discount">🎁 20% OFF Your First Month</div>
-            <p>Join 500+ families who've seen their children's grades soar. Book your free assessment today and lock in this exclusive discount.</p>
+            <p>Join 500+ families who've seen their children's grades soar. Book your free test prep assessment today.</p>
             <a href="/registration" class="btn btn-primary">Claim My 20% Off</a>
             <p style="margin-top:15px;font-size:.85rem;color:var(--text-light)">No commitment. Cancel anytime.</p>
         </div>
@@ -848,7 +1151,7 @@
             });
 
             // ----- SCROLL REVEAL -----
-            const revealElements = document.querySelectorAll('.reveal');
+            const revealElements = document.querySelectorAll('.reveal, .reveal-l, .reveal-r');
             const revealOnScroll = () => {
                 const wh = window.innerHeight;
                 revealElements.forEach(el => {
@@ -911,18 +1214,18 @@
 
             // ----- WHATSAPP CHAT -----
             document.querySelector('.chat-btn').addEventListener('click', () => {
-                window.open('https://wa.me/16478494344?text=Hi%20Study%20Zone%2C%20I%20have%20a%20question%20about%20registration', '_blank');
+                window.open('https://wa.me/16478494344?text=Hi%20Study%20Zone%2C%20I%20have%20a%20question%20about%20test%20prep', '_blank');
             });
 
             // ----- EXIT-INTENT MODAL -----
             const exitModal = document.querySelector('.exit-modal-overlay');
             let exitShown = false;
-            if (exitModal && !localStorage.getItem('exitModalShownRegistration')) {
+            if (exitModal && !localStorage.getItem('exitModalShownTestPrep')) {
                 document.addEventListener('mouseleave', (e) => {
                     if (e.clientY < 0 && !exitShown) {
                         exitModal.classList.add('active');
                         exitShown = true;
-                        localStorage.setItem('exitModalShownRegistration', 'true');
+                        localStorage.setItem('exitModalShownTestPrep', 'true');
                     }
                 });
                 exitModal.querySelector('.exit-modal-close').addEventListener('click', () => {
@@ -932,6 +1235,36 @@
                     if (e.target === exitModal) exitModal.classList.remove('active');
                 });
             }
+
+            // ----- FORM SUBMISSION (mailto) -----
+            window.submitForm = function(btn) {
+                const form = btn.closest('.cform') || btn.closest('form');
+                if (form) {
+                    const inputs = form.querySelectorAll('input, select, textarea');
+                    let body = 'Free Assessment Request - Test Prep\n';
+                    body += '===================================\n\n';
+                    inputs.forEach(inp => {
+                        if (inp.type !== 'submit' && inp.type !== 'button') {
+                            const label = inp.closest('.fg')?.querySelector('label')?.textContent || inp.placeholder || inp.name || 'Field';
+                            const val = inp.value || 'Not provided';
+                            body += `${label.trim()}: ${val}\n`;
+                        }
+                    });
+                    body += '\n---\nSubmitted from: ' + window.location.href;
+                    body += '\nDate: ' + new Date().toLocaleString();
+                    const subject = encodeURIComponent('New Free Assessment Request - Test Prep');
+                    const encodedBody = encodeURIComponent(body);
+                    window.location.href = `mailto:info@thestudyzone.ca?subject=${subject}&body=${encodedBody}`;
+                    btn.textContent = "✓ Request sent — we'll be in touch within 24 hours.";
+                    btn.classList.add('sent');
+                    btn.disabled = true;
+                    if (typeof gtag !== 'undefined') gtag('event', 'form_submit', {
+                        event_category: 'engagement',
+                        event_label: 'test-prep'
+                    });
+                    if (typeof fbq !== 'undefined') fbq('track', 'Lead');
+                }
+            };
 
             // ----- ACCESSIBILITY -----
             document.addEventListener('keydown', e => {
